@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <title>WDD230 Homepage</title>
+        <meta name="description" content="This is the assignment homepage for WDD230 Spring 2020">
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <body>
+    <header>
+        <img src="me.jpg" alt="self photo">
+        <h1>Chelsea Thomson</h1>
+    </header>
+        <main>
+            <h2>WDD230 Web Assignment Portal</h2>
+            <ul>
+                <li>Lesson 02:<a href="#">Assignment Principles</a></li>
+                <li>Lesson 03:<a href="#">Assignment Planning</a></li>
+                <li>Lesson 04:<a href="#">Assignment Page</a></li>
+            </ul>
+        </main>
+    <footer>
+       <p>&copy;2020 | Chelsea Thomson | Utah | 
+        <a class="weblink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+       <p>Last Update: <span id="last"></span></p>
+    </footer>         
+    <script>
+        document.getElementById("last").textContent=document.lastModified;
+    </script>
+    </body>
+</html>
