@@ -10,34 +10,19 @@ body{
 h1 {
     font-size: 30px;
 }
+img{
+    width: 100%;
+}
 section{
+    background-color:rgb(80, 91, 110);
+    border-color: rgb(80, 91, 110);
+    border-style: ridge;
+    border-width: .25em;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     padding: .5em;
 }
-.one{
-    background-color:rgb(80, 91, 110);
-    border-color: rgb(80, 91, 110);
-    border-style: ridge;
-    border-width: .25em;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-.two{
-    background-color:rgb(80, 91, 110);
-    border-color: rgb(80, 91, 110);
-    border-style: ridge;
-    border-width: .25em;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-.three{
-    background-color:rgb(80, 91, 110);
-    border-color: rgb(80, 91, 110);
-    border-style: ridge;
-    border-width: .25em;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-h2, h3, h4 {
+h2 {
     font-size: 20px;
 }
 footer{
