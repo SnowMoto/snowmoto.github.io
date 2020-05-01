@@ -1,0 +1,50 @@
+body {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 55, 66);
+}
+main {
+    grid-template-columns: 1fr;
+    padding: 1em;
+}
+header, main, footer {
+    max-width: 600px;
+    margin: auto;
+}
+header{
+    background-color: rgb(4, 211, 211);
+    padding: .25rem;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+h2, h3, h4 {
+    color: black;
+    font-size: 14px;
+    background-color: rgb(4, 211, 211);
+    border-top-right-radius: 40px;
+}
+p{
+    color: whitesmoke;
+
+}
+.site{
+    color:rgb(1, 255, 35);
+    
+}
+.weblink{
+    color: black;
+}
+p.ft{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    text-align: center;
+    padding: .01rem;
+}

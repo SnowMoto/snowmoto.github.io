@@ -1,0 +1,47 @@
+@media only screen and (min-width: 32.5em){
+    body{
+        font-size: 14px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2, h3, h4 {
+        font-size: 16px;
+    }
+    section{
+        padding: .5em;
+    }
+    .one{
+        background-color:rgb(80, 91, 110);
+        border-color: rgb(80, 91, 110);
+        border-style: ridge;
+        border-width: .25em;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    .two{
+        background-color:rgb(80, 91, 110);
+        border-color: rgb(80, 91, 110);
+        border-style: ridge;
+        border-width: .25em;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    .three{
+        background-color:rgb(80, 91, 110);
+        border-color: rgb(80, 91, 110);
+        border-style: ridge;
+        border-width: .25em;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    footer{
+        font-size: 14px;
+        border-radius: 10px; 
+    }
+ 
+}
