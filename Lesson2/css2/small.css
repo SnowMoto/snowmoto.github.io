@@ -30,8 +30,8 @@ h2{
 }
 img{
     width: 25%;
-    float: right;
-    padding:.5em;
+    float: fixed;
+    padding-top: 2em;
 }
 p{
     color: whitesmoke;
@@ -39,7 +39,7 @@ p{
 }
 .site{
     color:rgb(1, 255, 35);
-    
+    position: fixed;
 }
 .weblink{
     color: black;
