@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <title>Typography Doc</title>
+        <meta name="description" content="WDD230 Spring 2020 Forcast Project Plan-Typography">
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    <body>
+    <header>
+        <img src="img/logo5.jpg" alt="logo">
+        <h1>Typography</h1>
+        <a class="outlet" href="https://www.weatheroutlet.org/" target="blank">www.weatheroutlet.org</a>      
+        <nav>
+            <ul>
+                <li><a href="..\lesson3\">Home</a></li>
+                <li><a href="..\lesson3\target-audience.html">Audience</a></li>
+                <li><a href="..\lesson3\color-scheme.html">Color Scheme</a></li>
+                <li><a href="..\lesson3\typography.html">Typography</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <section class="heading">
+            <h2>Header Font</h2>
+            <p>Anton, sans-serif</p>
+            </section>
+            <section class="text">
+            <h2>Body & Footer Font</h2>
+            <p>Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif</p>
+            </section>
+        </main>
+    <footer>
+       <p>&copy;2020 | Chelsea Thomson | Utah | 
+        <a class="weblink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+       <p>Last Update: <span id="last"></span></p>
+    </footer>         
+    <script>
+        document.getElementById("last").textContent=document.lastModified;
+    </script>
+    </body>
+</html>

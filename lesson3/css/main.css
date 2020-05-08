@@ -1,0 +1,116 @@
+body {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 55, 66);
+}
+header, main, footer {
+    max-width: 600px;
+    margin: auto;
+}
+header{
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem;
+}
+img{
+    width: 25%;
+    float: left;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 4em;
+}
+nav{
+    background-color: black;
+    
+}
+nav ul{ 
+    display: flex;
+    list-style-type: none;
+    padding: 1em;
+}
+nav ul li a{
+    flex: 1 1 100%;
+    text-align: center;
+    color: rgb(1, 255, 35);
+    font-size: 15px;
+}
+a{
+    padding: 1em;
+}
+a:hover{
+    background-color: rgb(49, 55, 66);
+    padding: .5em;
+}
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 20px;
+    text-indent: 5em;
+}
+h2{
+    color:rgb(4, 211, 211);
+    text-align: center;
+}
+main{
+    background-color: rgb(80, 91, 110);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: whitesmoke;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+.weblink{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    text-align: center;
+    padding: .01rem;
+}
+/*Typography*/
+
+/*Color*/
+section{
+    display: flex;
+    flex: 1 1 100%;
+}
+div{
+    width: 4em;
+    margin: auto;
+    padding: .5em;
+}
+.bg-primary{
+    background-color: rgb(49, 55, 66);
+    border-style: solid;
+    border-color: black;
+    border-width: .2em;
+}
+.bg-secondary{
+    background-color: rgb(80, 91, 110);
+    border-style: solid;
+    border-color: black;
+    border-width: .2em;
+}
+.bg-accent1{
+    background-color: #04d3d3;
+    border-style: solid;
+    border-color: black;
+    border-width: .2em;
+}
+.bg-accent2{
+    background-color: rgb(1, 255, 35);
+    border-style: solid;
+    border-color: black;
+    border-width: .2em;
+}
+.bg-accent3{
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: .2em;
+}
+.height-xxxl{
+    width: 4em;
+}
