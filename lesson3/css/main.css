@@ -70,6 +70,9 @@ footer{
     padding: .01rem;
 }
 /*Typography*/
+p{
+    text-align: center;
+}
 
 /*Color*/
 section{
