@@ -1,5 +1,5 @@
 body {
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(49, 55, 66);
 }
@@ -21,22 +21,21 @@ img{
 }
 .outlet{
     color: rgb(1, 255, 35);
-    margin-left: 12em;
+    text-align: center;
+    display: block;
 }
 nav{
     background-color: black;
     
 }
 nav ul{ 
-    display: flex;
     list-style-type: none;
     padding: .5em;
 }
 nav ul li a{
-    flex: 1 1 100%;
     text-align: center;
     color: rgb(1, 255, 35);
-    font-size: 15px;
+    font-size: 12px;
 }
 a{
     padding: 1em;
@@ -48,11 +47,12 @@ a:hover{
 h1 {
     font-family: 'Anton', sans-serif;
     color: black;
-    font-size: 20px;
-    text-indent: 5em;
+    font-size: 14px;
+    text-indent: 1em;
 }
 h2{
     color:rgb(4, 211, 211);
+    font-size: 14;
     text-align: center;
     margin-bottom: 0em;
 }
@@ -90,6 +90,7 @@ section{
 }
 div{
     width: 4em;
+    font-size: 12px;
     margin: auto;
     padding: .5em;
 }
@@ -126,3 +127,23 @@ div{
 .height-xxxl{
     width: 4em;
 }
+/*Media Query*/
+@media only screen and (min-width: 32.5em){
+    nav ul{ 
+        display: flex;
+    }
+    nav ul li{
+        flex: 1 1 100%;
+        font-size: 15px;
+    }
+    body {
+        font-size: 16px;
+    }
+    h1{
+        font-size: 20px;
+        text-indent: 8em;
+    }
+    h2{
+    font-size: 18px;
+    }
+    }
