@@ -13,16 +13,17 @@ header{
     padding: .5rem;
 }
 img{
-    width: 25%;
+    width: 20%;
     float: left;
     margin-top: .25em;
-    border-top-right-radius: 4em;
-    border-bottom-left-radius: 4em;
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 3em;
 }
 .outlet{
     color: rgb(1, 255, 35);
     text-align: center;
     display: block;
+    padding: 0em;
 }
 nav{
     background-color: black;
@@ -30,10 +31,11 @@ nav{
 }
 nav ul{ 
     list-style-type: none;
-    padding: .5em;
+    padding: .25em;
 }
 nav ul li a{
     text-align: center;
+    display: block;
     color: rgb(1, 255, 35);
     font-size: 12px;
 }
@@ -61,8 +63,6 @@ main{
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     color: whitesmoke;
-    margin-top: 1em;
-    margin-bottom: 1em;
     padding: .5em;
 }
 .weblink{
@@ -131,6 +131,7 @@ div{
 @media only screen and (min-width: 32.5em){
     nav ul{ 
         display: flex;
+        padding: .5em;
     }
     nav ul li{
         flex: 1 1 100%;
