@@ -1,16 +1,21 @@
-@media only screen and (min-width: 20em){
-    header h1{
-        margin: 0 0 0 14px;
+@media only screen and (min-width: 32.5em){
+    header main footer{
+        max-width: 460px;
     }
-    nav ul{
-        text-align: center;
-        font-size: 12px;
-    }  
-    nav li:first-child{
-        display: block;
-        display: none;
+    img{
+        max-width: 100%;
     }
-    .responsive li{
-        display: block;
-    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
 }
