@@ -1,10 +1,10 @@
 body {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(49, 55, 66);
 }
-header, main, footer {
-    max-width: 650px;
+header main footer {
+    max-width: 550px;
     margin: auto;
 }
 header{
@@ -30,27 +30,45 @@ h2 {
 }
 img{
     width: 15%;
+    height: auto;
+    max-width: 100%;
     float: left;
     border-top-right-radius: 3em;
     border-bottom-left-radius: 3em;
+    padding: none;
 }
 .ham{
     color: turquoise;
 }
 nav{
+    margin: auto;
     background-color: black;
     padding: .05em;
 }
-nav ul{ 
-    list-style-type: none;
+.navigation{
+    list-style: none;
+    padding: 0em;
 }
-nav ul li a{
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    padding: .5em;
+    text-align: center;
+    text-decoration: none;
     color: rgb(1, 255, 35);
-    font-size: 12px;
+    font-size: 14px;
 }
 a:hover{
     background-color: rgb(49, 55, 66);
     padding: .5em;
+}
+.responsive li{
+    display: block;
 }
 main{
     margin-top: 1em;
