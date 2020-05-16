@@ -3,7 +3,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(49, 55, 66);
 }
-header main footer {
+header, main, footer {
     max-width: 600px;
     margin: auto;
 }
