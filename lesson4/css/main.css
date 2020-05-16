@@ -1,0 +1,81 @@
+body {
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 55, 66);
+}
+header, main, footer {
+    max-width: 650px;
+    margin: auto;
+}
+header{
+    text-indent: 2em;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem;
+}
+header h1{
+    margin: 0 0 0 17px;
+    font-size: 16px;
+}
+h1 div{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+    color: whitesmoke;
+    font-size: 16px;
+    margin-left: 25px;
+}
+img{
+    width: 15%;
+    float: left;
+    border-top-right-radius: 3em;
+    border-bottom-left-radius: 3em;
+}
+.ham{
+    color: turquoise;
+}
+nav{
+    background-color: black;
+    padding: .05em;
+}
+nav ul{ 
+    list-style-type: none;
+}
+nav ul li a{
+    color: rgb(1, 255, 35);
+    font-size: 12px;
+}
+a:hover{
+    background-color: rgb(49, 55, 66);
+    padding: .5em;
+}
+main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(80, 91, 110);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: whitesmoke;
+    padding: .5em;
+}
+p{
+    text-align: center;
+}
+.weblink{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+}
+.foot{
+    background-color:  rgb(4, 211, 211);
+    margin: 0;
+    border-style: none;
+}
