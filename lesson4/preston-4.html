@@ -36,10 +36,10 @@
         </main>
     <footer>
        <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
-       Last Update: <span id="last"></span>
+       <span id="date"></span>
     </footer>         
     <script>
-        document.getElementById("last").textContent=document.lastModified;
+       document.getElementById("date").innerHTML = Date();
     </script>
     </body>
 </html>
