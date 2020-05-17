@@ -4,11 +4,11 @@ body {
     background-color: rgb(49, 55, 66);
 }
 header, main, footer {
-    max-width: 650px;
+    max-width: 600px;
     margin: auto;
 }
 header{
-    text-indent: 2em;
+    text-indent: 1em;
     background-color: rgb(4, 211, 211);
     border-radius: 10px;
     padding: .5rem;
@@ -43,7 +43,7 @@ img{
 nav{
     margin: auto;
     background-color: black;
-    padding: .05em;
+    padding: .25em;
 }
 .navigation{
     list-style: none;
@@ -57,7 +57,6 @@ nav{
 }
 .navigation a{
     display: block;
-    padding: .25em;
     text-align: center;
     text-decoration: none;
     color: rgb(1, 255, 35);
@@ -65,7 +64,7 @@ nav{
 }
 a:hover{
     background-color: rgb(49, 55, 66);
-    padding: .25em;
+    padding: .25m;
 }
 .responsive li{
     display: block;
