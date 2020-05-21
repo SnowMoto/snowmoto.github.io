@@ -1,0 +1,57 @@
+@media only screen and (min-width: 32.7em){
+	body{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    div{
+        font-size: 16px;
+    }
+	img{
+        max-width: 100%;
+    }
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	h2{
+		text-align: center;
+	}
+	.five{
+		display: block;
+		font-family: "Anton", sans-serif;
+		margin: 0px;
+		background-color: black;
+	}
+	.day{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.contact{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		border-top-color: rgb(4, 211, 211);
+		border-top-style: solid;
+		border-top-width: 5px;
+		padding: 1em;
+
+	}
+	.map{
+		display: block;
+		width: 250px;
+		border-color: black;
+		border-style: solid;
+		border-width: 5px;
+	}
+}
+
+
