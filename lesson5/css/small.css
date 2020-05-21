@@ -31,6 +31,11 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
 }
+h3{
+    font-family: "Anton", sans-serif;
+    color: whitesmoke;
+    background-color: black;
+}
 .gogo{
     float: left;
     width: 100px;
@@ -154,9 +159,8 @@ img{
 }
 .art{
     font-family: "Anton", sans-serif;
-    color: black;
-    background-color: rgb(4, 211, 211);
-    font-size: 18;
+    background-color: black;
+    font-size: 18px;
     text-align: center;
 }
 .line{
@@ -170,6 +174,7 @@ img{
 }
 .address{
     display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
     color: whitesmoke;
 }
