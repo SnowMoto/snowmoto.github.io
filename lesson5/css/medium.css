@@ -21,9 +21,6 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	h2{
-		text-align: center;
-	}
 	.five{
 		display: block;
 		font-family: "Anton", sans-serif;
