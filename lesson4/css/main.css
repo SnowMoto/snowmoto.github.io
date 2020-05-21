@@ -34,13 +34,13 @@ h2 {
     border-width: .25em;
 }
 img{
-    width: 15%;
+    width: 100px;
     height: auto;
     max-width: 100%;
     float: left;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
-    padding: none;
+    padding: 0em;
 }
 .ham{
     color: turquoise;
@@ -69,7 +69,7 @@ nav{
 }
 a:hover{
     background-color: rgb(49, 55, 66);
-    padding: .25m;
+    padding: .25em;
 }
 .responsive li{
     display: block;
