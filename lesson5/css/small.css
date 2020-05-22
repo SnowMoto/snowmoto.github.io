@@ -1,7 +1,10 @@
 body {
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(49, 55, 66);
+    background-image: url("../images/prestonid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header, main, footer {
     max-width: 750px;
@@ -102,7 +105,7 @@ a:hover{
 main{
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: rgb(80, 91, 110);
+    background-color: rgb(49, 55, 66);
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     color: whitesmoke;
