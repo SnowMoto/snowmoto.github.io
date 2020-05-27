@@ -12,10 +12,7 @@
         max-width: 100%;
 	}
 	.med{
-		position: absolute;
-		top: 5px;
-		right: 10px;
-		color: whitesmoke;
+		display: block;
 	}
 	.small, .large{
 		display: none;
