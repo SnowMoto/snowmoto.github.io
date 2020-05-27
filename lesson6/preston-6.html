@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <title>Preston Id Page</title>
+        <meta name="description" content="WDD230 Spring 2020 Forcast Project Plan">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">    
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css"> 
+        <link rel="stylesheet" href="css/large.css">
+    <body>
+        <div class="popup">
+            <img src="images/pancake.jpg" class="pancake" alt="pan">
+            <button class="click" type="button" onclick="addPopup()">Who wants Pancakes!<br>Click Here</button>
+        </div>
+    <header>
+        <img src="images/logo5.jpg" class="logo" alt="weather logo">
+        <h1>Weather Forcast Site</h1>
+        <div>Your one Stop Shop</div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="current2" href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+        <main>
+            <div class="hero">
+                <!--<img src="images/lake.jpeg" class="lake" alt="banner">-->
+              <picture>
+                <source srcset="images/wdd230medium.jpg" media="(min-width:32.7em)">
+                <source srcset="images/wdd230large.jpg" media="(min-wdith:60em)">
+                <img src="images/wdd230small.jpg" class="hero" alt="wdd230 hero" style="width: auto;">
+              </picture>
+                <h2>Preston Idaho</h2>
+                <p class="small">Small</p>
+                <p class="med">Medium</p>
+                <p class="large">Large</p>
+                <section class="overlay">
+                    <h3>Summary Overcast</h3>
+                    <p>Currently: <span id="condition">Cloudy</span></p>
+                    <p>High: <span id="temp">45&#8457;</span></p>
+                    <p>Chance of Rain: <span id="percent">50%</span></p>
+                    <p>Wind Speed: <span id="wspd">10mph</span></p>
+                    <p>Wind Chill: <span id="chilly"></span><span>&#8457;</span></p>
+                </section>
+            </div>            
+            <p class="five">5 Day Forcast</p>
+            <div class="day">
+                <div class="forecast1">
+                    <div>Mon</div>
+                    <img src="images/sunny.jpg" alt="sun">
+                    <div class="temp1">75&#8457;</div>
+                </div>
+                <div class="forecast2">
+                    <div>Tues</div>
+                    <img src="images/partialcloudy.jpg" alt="cloud">
+                    <div class="temp2">60&#8457;</div>
+                </div>
+                <div class="forecast3">
+                    <div>Wed</div>
+                    <img src="images/rainy.jpg" alt="rain">
+                    <div class="temp3">50&#8457;</div>
+                </div>
+                <div class="forecast4">
+                    <div>Thur</div>
+                    <img src="images/stormy.jpg" alt="storm">
+                    <div class="temp4">45&#8457;</div>
+                </div>
+                <div class="forecast5">
+                    <div>Fri</div>
+                    <img src="images/snow.jpg" alt="snow">
+                    <div class="temp5">30&#8457;</div>
+                </div>
+            </div>
+            <section>
+                <h3 class="art">Our Real Heros</h3>
+                <img src="images/hero.jpg" class="line" alt="med">
+                <p class="article">
+                    Kim, 32, was a photographer before becoming a paramedic in 2016. He had been an EMT for 13 years, 
+                    then took the additional year-plus of study to gain the higher certification. One of the skills he 
+                    learned is intubation—placing a breathing tube down an airway. With a virus that inhabits the throat, 
+                    it’s a procedure that creates exceptional risks for the caregiver. So far, three of Kim’s colleagues, 
+                    all older, have tested positive. It reinforced his decision to make a visual record of the work they are all doing. 
+                    “I want our story to be told from us directly,” he says.<br>
+                    He made this diary over seven days, starting March 30. “As the week progressed, it felt like I was seeing a lot more sick people,
+                    ” Kim says. “It seemed to be escalating.” Before entering a home, he puts on an N95 mask, then a surgical mask. “At least two pairs of gloves.” 
+                    Then a disposable gown. For the sake of risk and equipment, which must be discarded after each call, only one paramedic goes in. Sometimes there’s 
+                    nothing you can do. At one nursing home, a woman in her early 90s was already cold to the touch, with signs of rigor.<br>
+                    Halfway through the week, Kim was also pressed into service in the ICU wards the hospital had built as the virus bore down. 
+                    The ER “looks like something from The Matrix, we have so much equipment out,” but the new ICUs remind him of actual film sets—all new timber and 
+                    exposed sheetrock walls, built ingeniously so that nurses and doctors can adjust medicines and settings without entering the room. <br>
+                    The next day, a fellow paramedic spiked a fever and got tested. “The thought definitely crosses my mind. Am I carrying the virus? Am I bringing it 
+                    home and exposing my wife to it? I think about that,” Kim says, “but I try not to let that thought consume me while I’m home because that’s my time 
+                    to not think about everything.” —Karl Vick
+                </p>
+            </section>
+            <section class="contact">
+                <img src="images/map.jpeg" class="map" alt="state">
+                <div class="address">
+                    <h3>Contact Us</h3>
+                    Weather Outlet<br>
+                    123 Baby Shark Rd.<br>
+                    Preston, Id 83263<br><br>
+                    <span >&#x1F4F1;1-208-Out-let1</span><br>
+                    weatheroutlet1@outlook.com
+                </div>
+            </section>
+        </main>
+    <footer>
+       <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
+       <span id="date"></span>
+    </footer>         
+        <script src="js/popup.js"></script>
+        <script src="js/java.js"></script>
+        <script onload="windChill()" src="js/windchill.js"></script>
+    </body>
+</html>

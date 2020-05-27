@@ -1,0 +1,24 @@
+@media only screen and (min-width: 60em){
+    body{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .large{
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        color: whitesmoke;
+    }
+    .small, .med{
+        display: none;
+    }
+    div{
+        font-size: 18px;
+    }
+    footer{
+        font-size: 14px;
+    }
+    }
+    

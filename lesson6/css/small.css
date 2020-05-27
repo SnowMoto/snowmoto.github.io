@@ -1,0 +1,213 @@
+body {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../images/prestonid.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header, main, footer {
+    max-width: 750px;
+    margin: auto;
+}
+header{
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem;
+}
+h1, div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin: 0px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+    position: relative;
+    margin-top: -1.25em;
+    margin-right: 1em;
+    text-align: right;
+    text-shadow: 3px 3px black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+h3{
+    font-family: "Anton", sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    padding: .5em;
+}
+.logo{
+    float: left;
+    width: 100px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}.lake{
+    width: 100%;
+    border-top-right-radius: 2.5em;
+}
+.ham{
+   background-color: black;
+   color: rgb(4, 211, 211);
+}
+nav{
+    max-width: 595px;
+    margin: auto;
+    margin-top: .5em;
+    background-color: black;
+    border-radius: 1em;
+}
+.navigation .current2{
+    
+    border-bottom: rgb(1, 255, 35);
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+}
+.navigation{
+    list-style: none;
+    padding: 0em;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(4, 211, 211);
+    font-size: 14px;
+    padding: 1em;
+}
+a:hover{
+    background-color: rgb(80, 91, 110);
+    border-radius: 1em;
+}
+.responsive li{
+    display: block;
+}
+.overlay{
+    font-size: 12px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+	background: radial-gradient(whitesmoke, #1ebcd1);
+	border: 1px solid #000;
+	padding: .25em;
+	box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(49, 55, 66);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: whitesmoke;
+    padding: .5em;
+}
+.hero {
+    position: relative;
+    border-top-right-radius: 50px;
+}
+.small{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: whitesmoke;
+}
+.med, .large{
+    display: none;
+}
+.popup{
+    position: relative;
+    display: block;
+}
+.click {
+    position: absolute;
+    font-size: 12px;
+    top: 65%;
+    left: 42.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    border-color: black;
+    border-width: .25em;
+}
+.pancake{
+    margin:auto;
+    width: 175px;
+    height: 55px;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+p{
+    text-align: center;
+}
+.five{
+    display: none;
+}
+.day{
+    display: none;
+}
+.forecast1, .forecast2, .forecast3, .forecast4, .forecast5{
+    background-color: whitesmoke;
+}
+.temp1, .temp2{
+	background: radial-gradient(whitesmoke, #ff8330);
+    opacity: 1;
+}
+.temp3,.temp4, .temp5{
+    background: radial-gradient(whitesmoke, #1e89d1);
+    opacity: 1;
+}
+img{
+    width: 30px;
+    position: relative;
+    margin: auto;
+}
+.art{
+    font-family: "Anton", sans-serif;
+    background-color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: .5em;
+}
+.line{
+    width: 50%;
+    float: right;
+    margin: 0 0 0 1%;
+}
+.article{
+    text-align: left;
+    font-size: 16px;
+}.map{
+    display: none;
+}
+.address{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+}
+.weblink{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+}
+.foot{
+    background-color:  rgb(4, 211, 211);
+    margin: 0;
+    border-style: none;
+}
