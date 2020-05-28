@@ -11,12 +11,6 @@
 	img{
         max-width: 100%;
 	}
-	.med{
-		display: block;
-	}
-	.small, .large{
-		display: none;
-	}
 	.navigation {
 		display: flex;
 	}

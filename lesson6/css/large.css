@@ -5,12 +5,6 @@
     h1{
         font-size: 22px;
     }
-    .large{
-        display: block;
-    }
-    .small, .med{
-        display: none;
-    }
     div{
         font-size: 18px;
     }
