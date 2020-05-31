@@ -38,6 +38,10 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
+	.firstline{
+		float: right;
+		margin: 0 0 0 1%;
+	}
 	.contact{
 		display: flex;
 		flex-direction: row;

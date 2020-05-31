@@ -174,10 +174,11 @@ img{
     text-align: center;
     padding: .5em;
 }
-.line{
+.firstline{
     width: 50%;
-    float: right;
-    margin: 0 0 0 1%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .article{
     text-align: left;
