@@ -32,7 +32,7 @@ h2 {
     text-shadow: 3px 3px black;
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 h3{
     font-family: "Anton", sans-serif;
@@ -92,7 +92,10 @@ a:hover{
     display: block;
 }
 .overlay{
-    font-size: 12px;
+    display: flex;
+    font-size: 8px;
+    line-height: 0em;
+    flex-direction: column;
     position: absolute;
     top: 5px;
     left: 10px;
@@ -167,7 +170,7 @@ img{
 .art{
     font-family: "Anton", sans-serif;
     background-color: black;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: .5em;
 }
@@ -178,7 +181,7 @@ img{
 }
 .article{
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
 }.map{
     display: none;
 }
