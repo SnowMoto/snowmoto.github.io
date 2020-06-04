@@ -1,0 +1,119 @@
+body {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 55, 66);
+}
+header, main, footer {
+    max-width: 750px;
+    margin: auto;
+}
+header{
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem;
+}
+h1{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+.logo{
+    float: left;
+    width: 100px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.ham{
+   background-color: black;
+   color: rgb(4, 211, 211);
+}
+nav{
+    max-width: 595px;
+    margin: auto;
+    margin-top: .5em;
+    background-color: black;
+    border-radius: 1em;
+}
+.navigation .current{
+    border-bottom: rgb(1, 255, 35);
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+}
+.navigation{
+    list-style: none;
+    padding: 0em;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(4, 211, 211);
+    font-size: 14px;
+    padding: 1em;
+}
+a:hover{
+    background-color: rgb(80, 91, 110);
+    border-radius: 1em;
+}
+.responsive li{
+    display: block;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(49, 55, 66);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(80, 91, 110);
+    color: whitesmoke;
+    padding: 2em;
+}
+picture img{
+    display: block;
+    width: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+figcaption{
+    border-bottom: black;
+    border-style: solid;
+    border-width: 2px;
+}
+img[data-src] {
+    filter: blur(3px);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+}
+.weblink{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+}
+.foot{
+    background-color:  rgb(4, 211, 211);
+    margin: 0;
+    border-style: none;
+}
