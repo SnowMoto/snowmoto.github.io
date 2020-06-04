@@ -12,35 +12,39 @@
         <link rel="stylesheet" href="css/large.css">
     <body>
         <div class="popup">
-            <img src="images/pancake.jpg" class="pancake" alt="pan">
+            <img src="images/pancake.jpg" class="pancake" alt="breakfast">
             <button class="click" type="button" onclick="addPopup()">Who wants Pancakes!<br>Click Here</button>
         </div>
     <header>
-        <img src="images/logo5.jpg" class="gogo" alt="logo">
+        <img src="images/logo5.jpg" class="logo" alt="weather logo">
         <h1>Weather Forcast Site</h1>
         <div>Your one Stop Shop</div>
     </header>
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a class="current2" href="#">Preston</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul> 
     </nav>
         <main>
             <div class="hero">
-                <img src="images/lake.jpeg" class="lake" alt="banner">
+                <!--<img src="images/lake.jpeg" class="lake" alt="banner">-->
+              <picture>
+                <img src="images/lake.jpeg" class="hero" alt="lake">
+                </picture>
                 <h2>Preston Idaho</h2>
                 <section class="overlay">
                     <h3>Summary Overcast</h3>
                     <p>Currently: <span id="condition">Cloudy</span></p>
-                    <p>High: <span id="temp">45&#8457;</span></p>
+                    <p>High: <span id="temp">50&#8457;</span></p>
                     <p>Chance of Rain: <span id="percent">50%</span></p>
                     <p>Wind Speed: <span id="wspd">10mph</span></p>
+                    <p>Wind Chill: <span id="chilly"></span></p>
                 </section>
             </div>            
             <p class="five">5 Day Forcast</p>
@@ -73,7 +77,7 @@
             </div>
             <section>
                 <h3 class="art">Our Real Heros</h3>
-                <img src="images/hero.jpg" class="line" alt="med">
+                <img src="images/hero.jpg" class="firstline" alt="med">
                 <p class="article">
                     Kim, 32, was a photographer before becoming a paramedic in 2016. He had been an EMT for 13 years, 
                     then took the additional year-plus of study to gain the higher certification. One of the skills he 
@@ -109,7 +113,8 @@
        <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
        <span id="date"></span>
     </footer>         
-        <script src="js/addpopup.js"></script>
+        <script src="js/popup.js"></script>
         <script src="js/java.js"></script>
+        <script onload="windChill()" src="js/windchill.js"></script>
     </body>
 </html>

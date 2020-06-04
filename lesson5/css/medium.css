@@ -1,17 +1,20 @@
-@media only screen and (min-width: 32.7em){
+@media only screen and (min-width: 400px){
 	body{
         font-size: 18px;
     }
     h1{
-        font-size: 20px;
-    }
+        font-size: 22px;
+	}
+	h2{
+		font-size: 22px;
+	}
     div{
         font-size: 16px;
     }
 	img{
         max-width: 100%;
-    }
-    .navigation {
+	}
+	.navigation {
 		display: flex;
 	}
 	.navigation li {
@@ -21,6 +24,9 @@
 	.navigation li:first-child {
 		display: none;
 	}
+	.overlay{
+		font-size: 12px;
+		}
 	.five{
 		display: block;
 		font-family: "Anton", sans-serif;
@@ -31,6 +37,10 @@
 	.day{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+	.firstline{
+		float: right;
+		margin: 0 0 0 1%;
 	}
 	.contact{
 		display: flex;

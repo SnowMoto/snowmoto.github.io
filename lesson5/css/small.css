@@ -1,7 +1,7 @@
 body {
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("../images/prestonid.jpg");
+    background-image: url("../images/prestonid3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ h2 {
     text-shadow: 3px 3px black;
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 h3{
     font-family: "Anton", sans-serif;
@@ -40,7 +40,7 @@ h3{
     background-color: black;
     padding: .5em;
 }
-.gogo{
+.logo{
     float: left;
     width: 100px;
     border-top-right-radius: 2em;
@@ -60,7 +60,7 @@ nav{
     background-color: black;
     border-radius: 1em;
 }
-.navigation .current2{
+.navigation .current{
     
     border-bottom: rgb(1, 255, 35);
     border-bottom-style: double;
@@ -92,13 +92,16 @@ a:hover{
     display: block;
 }
 .overlay{
-    font-size: 12px;
+    display: flex;
+    font-size: 8px;
+    line-height: 0em;
+    flex-direction: column;
     position: absolute;
-    top: 10px;
+    top: 5px;
     left: 10px;
 	background: radial-gradient(whitesmoke, #1ebcd1);
 	border: 1px solid #000;
-	padding: .5em;
+	padding: .25em;
 	box-shadow: 0 0 30px #111;
     opacity: .8;
 }
@@ -112,7 +115,9 @@ main{
     padding: .5em;
 }
 .hero {
+    width: 100%;
     position: relative;
+    border-top-right-radius: 50px;
 }
 .popup{
     position: relative;
@@ -165,16 +170,19 @@ img{
 .art{
     font-family: "Anton", sans-serif;
     background-color: black;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: .5em;
 }
-.line{
+.firstline{
     width: 50%;
-    float: right;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .article{
-    font-size: 16px;
+    text-align: left;
+    font-size: 12px;
 }.map{
     display: none;
 }
