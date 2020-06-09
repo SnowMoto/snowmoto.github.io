@@ -1,0 +1,30 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+table{
+    text-align: center;
+    box-shadow: 7px 7px 10px #628ca6;
+    border-collapse: collapse;
+}
+table, tr, td{
+    border: 1px solid rgb(200, 200, 200)
+}
+thead, tfoot{
+    text-align: center;
+}
+thead{
+    font-size: 16px;
+}
+tfoot{
+    font-size: 9px;
+}
+tbody{
+    font-size: 12px;
+}
+td {
+    padding: .5em;
+}
+footer{
+    font-size: 10px;
+}
