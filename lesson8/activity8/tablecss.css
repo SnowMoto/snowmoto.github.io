@@ -22,7 +22,7 @@ tfoot{
 tbody{
     font-size: 12px;
 }
-tr:first-child{
+tbody tr:first-child{
     background-color: #628ca6; 
     color:white;
 }
