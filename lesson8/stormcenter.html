@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <title>Storm Center</title>
+        <meta name="description" content="WDD230 Spring 2020 Weather Site Assignment">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">    
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css"> 
+        <link rel="stylesheet" href="css/large.css">
+    <body>
+    <header>
+        <img src="images/logo5.jpg" class="logo" alt="weather logo">
+        <h1>Local Storm Report</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson5\preston-5.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="current" href="">Storm Center</a></li>
+            <li><a href="lesson7\gallery.html">Gallery</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Local Information</legend>
+                <label>First & Last Name*<input type="text" name="fname" required></label> 
+                <label>Email*<input type="email" name="email" placeholder="weatheroutlet@gmail.com" required></label> 
+                <label>Phone*<input type="tel" name="phone" placeholder="12086885381" required></label> 
+                <label>Zip Code*<input type="number" name="zip" required></label> 
+            </fieldset>
+            <fieldset>
+                <legend>Local Storm Report</legend>
+                <label>Storm Date:<input type="date" id="date"required></label> 
+                <br><label for="storm">Storm Type:</label>
+                <input list="storm-type" name="storm" id="storm">
+                    <datalist id="storm-type">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunder Storm">
+                    <option value="Snow Storm">
+                    <option value="Tornado">
+                </datalist>
+                <label>Storm Severity: 1<input type="range" id="scale" name="scale" min="1" max="10" required>10</label> 
+                <label>Storm Region:<select name="area" required>
+                    <option value="">Please Select</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda">Soda Springs</option>
+                    <option value="fish">Fish Haven</option>
+                </select></label> 
+                <label>Local in Danger?<input type="radio" name="are you in danger?" value="yes" required>Yes</label> 
+                <label><input type="radio" name="are you in danger?" value="maybe">Maybe</label> 
+                <label><input type="radio" name="are you in danger?" value="no">No</label> 
+            </fieldset>
+            <fieldset>
+                <legend>Additional Comments about the Storm?</legend>
+                <label><textarea id="comment" name="comment" rows="4" cols="50"></textarea></label> 
+            </fieldset>
+            <input type="submit" value="Report Storm">
+        </form>
+    </main>
+    <footer>
+        <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
+            <span id="date"></span>
+         </footer>         
+             <script src="javascript/java.js"></script>
+    </body>
+</html>
