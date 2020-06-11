@@ -30,15 +30,15 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Local Information</legend>
-                <label>First & Last Name*<input type="text" name="fname" required></label> 
-                <label>Email*<input type="email" name="email" placeholder="weatheroutlet@gmail.com" required></label> 
-                <label>Phone*<input type="tel" name="phone" placeholder="12086885381" required></label> 
-                <label>Zip Code*<input type="number" name="zip" required></label> 
+                <label class="top">First & Last Name*<input type="text" name="fname" required></label> 
+                <label class="top">Email*<input type="email" name="email" placeholder="weatheroutlet@gmail.com" required></label> 
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="12086885381" required></label> 
+                <label class="top">Zip Code*<input type="number" name="zip" required></label> 
             </fieldset>
             <fieldset>
                 <legend>Local Storm Report</legend>
-                <label>Storm Date:<input type="date" id="date"required></label> 
-                <br><label for="storm">Storm Type:</label>
+                <label class="sbs">Storm Date:<br><input type="date" id="date"required></label> 
+                <label class="top" for="storm">Storm Type:</label>
                 <input list="storm-type" name="storm" id="storm">
                     <datalist id="storm-type">
                     <option value="Flash Flood">
@@ -48,22 +48,22 @@
                     <option value="Snow Storm">
                     <option value="Tornado">
                 </datalist>
-                <label>Storm Severity: 1<input type="range" id="scale" name="scale" min="1" max="10" required>10</label> 
-                <label>Storm Region:<select name="area" required>
+                <label class="sbs">Storm Severity: 1<br><input type="range" id="scale" name="scale" min="1" max="10" required>10</label> 
+                <label class="sbs">Storm Region:<br><select name="area" required>
                     <option value="">Please Select</option>
                     <option value="preston">Preston</option>
                     <option value="soda">Soda Springs</option>
                     <option value="fish">Fish Haven</option>
                 </select></label> 
-                <label>Local in Danger?<input type="radio" name="are you in danger?" value="yes" required>Yes</label> 
-                <label><input type="radio" name="are you in danger?" value="maybe">Maybe</label> 
-                <label><input type="radio" name="are you in danger?" value="no">No</label> 
+                <label class="sbs">Local in Danger?<br><input type="radio" name="are you in danger?" value="yes" required>Yes</label> 
+                <label class="sbs"><input type="radio" name="are you in danger?" value="maybe">Maybe</label> 
+                <label class="sbs"><input type="radio" name="are you in danger?" value="no">No</label> 
             </fieldset>
             <fieldset>
                 <legend>Additional Comments about the Storm?</legend>
-                <label><textarea id="comment" name="comment" rows="4" cols="50"></textarea></label> 
+                <label class="top"><textarea id="comment" name="comment" rows="4" cols="50"></textarea></label> 
             </fieldset>
-            <input type="submit" value="Report Storm">
+            <input type="submit" value="Report Storm" class="submitBtn">
         </form>
     </main>
     <footer>
