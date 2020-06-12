@@ -48,8 +48,10 @@
                     <option value="Snow Storm">
                     <option value="Tornado">
                 </datalist>
-                <label class="sbs">Storm Severity: <br>1<input type="range" id="rating" value="1" min="1" max="10" list="rangeMarks"
-                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">1</span></label> 
+                <label for="rating">Storm Severity<input type="range" id="rating" value="1" min="1" max="10" list="rangeMarks"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span
+                        id="ratingvalue">1</span>
+                </label> 
                 <label class="sbs">Storm Region:<br><select name="area" required>
                     <option value="">Please Select</option>
                     <option value="preston">Preston</option>
