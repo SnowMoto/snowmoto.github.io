@@ -5,7 +5,7 @@ body {
 }
 header, main, footer {
     margin: 0 auto;
-    max-width: 1050px;
+    max-width: 1100px;
     text-align: center;
 }
 h1{
