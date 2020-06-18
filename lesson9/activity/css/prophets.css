@@ -4,8 +4,8 @@ body {
     background-color: rgba(11, 48, 59, 0.938);
 }
 header, main, footer {
-    margin: auto;
-    max-width: 800px;
+    margin: 0 auto;
+    max-width: 1050px;
     text-align: center;
 }
 h1{
@@ -25,20 +25,19 @@ h1, h2, p{
 .card{
     display: grid;
     grid-template-columns: 1fr;
-    justify-content: center;
     grid-gap: 1em;
 }
 img{
+    max-width: 100%;
     border: solid 5px black;
     box-shadow: 7px 7px 8px rgb(95, 95, 95);
     margin-top: 10px;
 }
 section {
-    background-color: cornsilk;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background-color: cornsilk;
     border: 5px solid  rgba(11, 48, 59, 0.938);
     padding: 2em 1em;
   }
