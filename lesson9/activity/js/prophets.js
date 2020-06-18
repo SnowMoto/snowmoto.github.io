@@ -24,4 +24,5 @@ card.appendChild(p2);
 
 document.querySelector('div.cards').appendChild(card);
 image.setAttribute('src', prophets[i].imageurl);
+image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + [i + 1]);
 }});
