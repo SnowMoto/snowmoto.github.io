@@ -84,7 +84,9 @@ main{
 .top{
     display: grid;
     grid-template-columns: 1fr;
+    grid-auto-columns: auto;
     padding: .5em;
+    
 }
 .weather{
     text-align: left;
@@ -102,19 +104,18 @@ main{
     border-top: 5px solid black;
 }
 .rodeo{
-    position: relative;
-    margin-top: 1em;
-    margin: -6em auto;
-}
-.mud{
-    position: relative;
     float: left;
+    position: relative;
+    margin-top: 2em;
+    margin-right: 15px;
+    z-index: 2;
     transform: rotate(-15deg);
 }
 .music{
-    position: sticky;
+    position: relative;
     float: right;
-    transform: rotate(15deg);
+    margin-top: 2em;
+    transform: rotate(10deg);
 }
 .towns{
     display: grid;
