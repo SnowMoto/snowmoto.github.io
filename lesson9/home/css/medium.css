@@ -1,0 +1,25 @@
+@media only screen and (min-width: 500px){
+	body{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 22px;
+	}
+	.towns{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div{
+        font-size: 16px;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+}

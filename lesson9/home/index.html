@@ -4,23 +4,22 @@
         <meta charset="utf-8">
         <meta name= "viewport" content="width=device-width, initial-scale=1">
         <title>Home</title>
-        <meta name="description" content="WDD230 Spring 2020 Weather Site Assignment">
+        <meta name="description" content="WDD230 Spring 2020 Forcast Project Plan">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">    
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css"> 
         <link rel="stylesheet" href="css/large.css">
-    </head>
     <body>
     <header>
         <img src="images/logo5.jpg" class="logo" alt="weather logo">
         <h1>Welcome to Weather Outlet</h1>
-        <div class="motto">Your One Stop Shop</div>
+        <div class="motto">Your one Stop Shop</div>
     </header>
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-            <li><a class="current" href="#">Home</a></li>
+            <li><a class="current" href="">Home</a></li>
             <li><a href="#">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
@@ -28,14 +27,37 @@
             <li><a href="#">Gallery</a></li>
         </ul> 
     </nav>
-    <main>
+        <main>
+            <div class="top">
+         <div class="weather">
+             <img class="weathermap" src="images/weatherimage.jpg" alt="weather radar">
+             <h2>Idaho News</h2>
+             <p>Happy Days! After a cool start to the region this morning, highs will rebound
+                 into the mid 70's this afternoon in the Treasure Vallery. Sunny Skies are also
+                 in the forecast for today and exception of our northern mountain valleys. Spooty
+                 showers and possible thunderstorms remain in the forecast for the Central Mountains
+                 and Baker County. <br>
+                 <br>Moister will clear out this evening for all areas and clear skies return Friday. A
+                 warming trend will contine through the end of the week with temperatures in the low 80's
+                 Friday, into mid=80's this weekend.
+             </p>
+         </div>   
+         <div class="news">
+             <h2>Events</h2>
+             <p>Visit our town pages for upcoming events. <br>We are sure you will find fun activities to do!</p>
+             <img class="rodeo" src="images/rodeomain.jpg" alt="rodeo man">
+             <br>
+             <img class="mud" src="images/mudrun.jpg" alt="muddy run">
+             <img class="music" src="images/music.jpg" alt="concert">
+            </div>
+            </div>
         <div class="towns"></div>
-    </main>
+        </main>
     <footer>
-        <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
-            <span id="date"></span>
-         </footer>         
-         <script src="jd/java.js"></script>
-         <script src="js/homepage.js"></script>
+       <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
+       <span id="date"></span>
+    </footer>         
+        <script src="js/java.js"></script>
+        <script src="js/homepage.js"></script>
     </body>
 </html>
