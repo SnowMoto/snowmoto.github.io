@@ -14,7 +14,7 @@
     }
     .rodeo, .mud, .music{
         display: block;
-        max-width: 100%;
+        width: 100%;
     }
     .rodeo{
         float: right;
