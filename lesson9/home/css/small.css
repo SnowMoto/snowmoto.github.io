@@ -90,7 +90,6 @@ main{
 }
 .weather{
     text-align: left;
-    width: 500px;
     max-width: 100%;
     padding: 1em;
 }
@@ -102,20 +101,19 @@ main{
     text-align: center;
     padding: 1em;
     border-top: 5px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.rodeo, .music{
+    margin: auto;
 }
 .rodeo{
-    float: left;
+    max-width: 50%;
     position: relative;
-    margin-top: 2em;
-    margin-right: 15px;
-    z-index: 2;
-    transform: rotate(-15deg);
+    margin-top: 3em;
 }
 .music{
-    position: relative;
-    float: right;
-    margin-top: 2em;
-    transform: rotate(10deg);
+    display: none;
 }
 .towns{
     display: grid;

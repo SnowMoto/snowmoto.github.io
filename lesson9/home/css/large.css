@@ -13,9 +13,18 @@
         border-left: 5px solid black;
         border-top: none;
     }
-    .rodeo, .music{
+    .rodeo{
+        position: relative;
+        margin-top: 3em;
+        margin-left: .25em;
+        z-index: 2;
+        transform: rotate(-15deg);
+    }
+    .music{
         display: block;
-        width: 100%;
+        margin-top:-8em; 
+        margin-right: .5em;
+        transform: rotate(10deg);
     }
     .towns{
         display: grid;

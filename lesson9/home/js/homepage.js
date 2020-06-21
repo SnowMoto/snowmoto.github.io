@@ -10,34 +10,37 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
             if (myTowns.includes(towns[i].name)) {
-                let card = document.createElement('section');
+            let card = document.createElement('section');
+            let div = document.createElement("div");
             let h2 = document.createElement('h2');
             let para1 = document.createElement('p');
             let para2 = document.createElement('p');
             let para3 = document.createElement('p');
             let para4 = document.createElement('p');
             let image = document.createElement('img');
+
+
             //preston
             h2.textContent = towns[i].name;
-            card.appendChild(h2);
-
             para1.textContent = towns[i].motto;
-            card.appendChild(para1);
-
             para2.textContent = 'Year Founded: ' + towns[i].yearFounded;
-            card.appendChild(para2);
-
             para3.textContent = 'Current Population: ' + towns[i].currentPopulation;
-            card.appendChild(para3);
-
             para4.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
-            card.appendChild(para4);
 
             image.setAttribute('src', towns[i].photo);
             image.setAttribute('alt', towns[i].name);
-            
 
-            document.querySelector('div.towns').appendChild(card);
+            div.setAttribute('class', 'div');
+            card.setAttribute('class', 'section');
+
+            div.appendChild(h2);
+            div.appendChild(para1);
+            div.appendChild(para2);
+            div.appendChild(para3);
+            div.appendChild(para4);
+            
+            card.appendChild(div);
             card.appendChild(image);
+            document.querySelector('.towns').appendChild(card);
             }
     }});
