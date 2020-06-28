@@ -40,41 +40,42 @@
                 <h2>Preston Idaho</h2>
                 <section class="overlay">
                     <h3>Summary Overcast</h3>
-                    <p>Currently: <span id="condition">Cloudy</span></p>
-                    <p>High: <span id="current-temp"></span>&deg; F</p>
-                    <p>Chance of Rain: <span id="percent">50%</span></p>
-                    <p>Wind Speed: <span id="wspd">10mph</span></p>
+                    <p>Sky Condition:   <span id="condition"></span></p>
+                    <p>Current Temp: <span id="temp"></span>&deg; F</p>
+                    <p>Humidity: <span id="percent"></span> %</p>
+                    <p>Wind Speed: <span id="wspd"></span> mph</p>
                     <p>Wind Chill: <span id="chilly"></span></p>
                 </section>
-            </div>            
-            <p class="five">5 Day Forcast</p>
-            <div class="day">
-                <div class="forecast1">
-                    <div>Mon</div>
-                    <img src="images/sunny.jpg" alt="sun">
-                    <div class="temp1">&#8457;</div>
-                </div>
-                <div class="forecast2">
-                    <div>Tues</div>
-                    <img src="images/partialcloudy.jpg" alt="cloud">
-                    <div class="temp2">&#8457;</div>
-                </div>
-                <div class="forecast3">
-                    <div>Wed</div>
-                    <img src="images/rainy.jpg" alt="rain">
-                    <div class="temp3">&#8457;</div>
-                </div>
-                <div class="forecast4">
-                    <div>Thur</div>
-                    <img src="images/stormy.jpg" alt="storm">
-                    <div class="temp4">&#8457;</div>
-                </div>
-                <div class="forecast5">
-                    <div>Fri</div>
-                    <img src="images/snow.jpg" alt="snow">
-                    <div class="temp5">&#8457;</div>
-                </div>
             </div>
+            <table>
+                <thead>            
+                <h4>5 Day Forecast</h4>   
+                <div class="day">
+                    <td><span id="dayofweek1"></span>
+                        <img src="" alt="" id="icon1"> 
+                    <span id="forecast1"></span>&deg; F</td>
+                    
+                    <td><span id="dayofweek2"></span> 
+                        <img src="" alt="" id="icon2"> 
+                    <span id="forecast2"></span>&deg; F</td>
+                    
+                    <td><span id="dayofweek3"></span> 
+                        <img src="" alt="" id="icon3"> 
+                    <span id="forecast3"></span>&deg; F</td>
+                    
+                    <td><span id="dayofweek4"></span>     
+                        <img src="" alt="" id="icon4"> 
+                    <span id="forecast4"></span>&deg; F</td>
+                    
+                    <td><span id="dayofweek5"></span> 
+                        <img src="" alt="" id="icon5"> 
+                    <span id="forecast5"></span>&deg; F</td>
+                </div>
+                </thead>
+                <tbody>
+                  <   
+                </tbody>
+            </table>
             <section>
                 <h3 class="art">Our Real Heros</h3>
                 <img src="images/hero.jpg" class="firstline" alt="med">
@@ -113,9 +114,10 @@
        <p class="foot">&copy;Weather Outlet | Attributions | Chelsea Thomson<br> 
        <span id="date"></span>
     </footer>         
-        <script src="js/popup.js"></script>
-        <script src="js/java.js"></script>
-        <script onload="windChill()" src="js/windchill.js"></script>
-        <script src="java/weather.js"></script>
+        <script src="javascript/popup.js"></script>
+        <script src="javascript/java.js"></script>
+        <script src="javascript/weatherapi.js"></script>
+        <script onload="windChill()" src="javascript/windchill.js"></script>
+        <script src="javascript/forecast.js"></script>
     </body>
 </html>
