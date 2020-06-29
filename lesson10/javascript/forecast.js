@@ -11,7 +11,7 @@ const weekdays = ['Sun', "Mon", 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let day = 0;
 fivedayforecast.forEach(forecast => {
     let d = new Date (forecast.dt_txt);
-    document.getElementById(`fivedayforecast${day + 1}`).innerHTML = `${fivedayforecast.main.temp}';
+    document.getElementById(`fivedayforecast${day + 1}`).innerHTML = `${forecast.main.temp}';
     document.getElementById('dayofweek${day + 1}').textContent = weekdays[d.getDay()];
     day++;
     const imagesrc = 'https://openweathermap.org/img/wn/${fiveDayForecast.weather[0].icon}@2x.png`;
