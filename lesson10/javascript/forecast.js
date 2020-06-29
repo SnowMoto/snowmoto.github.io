@@ -14,8 +14,8 @@ fivedayforecast.forEach(forecast => {
     document.getElementById(`fivedayforecast${day + 1}`).innerHTML = `${forecast.main.temp}';
     document.getElementById('dayofweek${day + 1}').textContent = weekdays[d.getDay()];
     day++;
-    const imagesrc = 'https://openweathermap.org/img/wn/${fiveDayForecast.weather[0].icon}@2x.png`;
-            const desc = fiveDayForecast.weather[0].description;
+    const imagesrc = 'https://openweathermap.org/img/wn/${fivedayforecast.weather[0].icon}@2x.png`;
+            const desc = fivedayforecast.weather[0].description;
             document.getElementById(`icon${day + 1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${day + 1}`).setAttribute('alt', desc);
             i++;
