@@ -19,16 +19,25 @@
 		display: none;
 	}
 	.towns{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	  }  
+	.card, .info{
+		display: flex;
+		flex-direction: row;
+		max-width: 100%;
+		padding: 1em;
+	}  
+	.card:nth-child(odd){
+		  flex-direction: row-reverse;
+	  }
+	.info{
 		display: grid;
-		  grid-template-columns: 1fr 1fr;
-	  }
-	  
-	  .section:nth-child(odd) .img{
-		  grid-column: 2;
-	  }
-	  
-	  .div:nth-child(odd){
-		  grid-column: 1;
-		  grid-row: 1;
-	  }
+		grid-template-columns: 1fr;
+		grid-gap: 1em;
+		padding: 2em;
+		text-align: center;
+	}  
 }

@@ -14,8 +14,6 @@
         border-top: none;
     }
     .rodeo{
-        position: relative;
-        margin-top: 3em;
         margin-left: .25em;
         z-index: 2;
         transform: rotate(-15deg);
@@ -26,9 +24,12 @@
         margin-right: .5em;
         transform: rotate(10deg);
     }
-    .towns{
+    .town{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    img{
+        max-width: 300px;
     }
     footer{
         font-size: 14px;

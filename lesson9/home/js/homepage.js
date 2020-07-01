@@ -10,8 +10,8 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
             if (myTowns.includes(towns[i].name)) {
-            let card = document.createElement('section');
-            let div = document.createElement("div");
+            let card = document.createElement('card');
+            let div = document.createElement("info");
             let h2 = document.createElement('h2');
             let para1 = document.createElement('p');
             let para2 = document.createElement('p');
@@ -30,8 +30,8 @@ fetch(requestURL)
             image.setAttribute('src', towns[i].photo);
             image.setAttribute('alt', towns[i].name);
 
-            div.setAttribute('class', 'div');
-            card.setAttribute('class', 'section');
+            div.setAttribute('class', 'info');
+            card.setAttribute('class', 'card');
 
             div.appendChild(h2);
             div.appendChild(para1);
