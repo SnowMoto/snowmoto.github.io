@@ -1,0 +1,43 @@
+@media only screen and (min-width: 500px){
+	body{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 22px;
+	}
+    div{
+        font-size: 16px;
+    }
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 auto;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.towns{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	  }  
+	.card, .info{
+		display: flex;
+		flex-direction: row;
+		max-width: 100%;
+		padding: 1em;
+	}  
+	.card:nth-child(odd){
+		  flex-direction: row-reverse;
+	  }
+	.info{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 1em;
+		padding: 2em;
+		text-align: center;
+	}  
+}

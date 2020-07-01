@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "viewport" content="width=device-width, initial-scale=1">
+        <title>WDD230 Lazy Load</title>
+        <meta name="description" content="This is the WK7 activity for WDD230 Spring 2020">
+        <link rel="stylesheet" href="lazy.css">
+        <body>
+    <header>
+        <h1>Lazy Image Loading</h1>
+    <picture>
+        <img src="https://placehold.co/300x400/jpg" data-src="images/babydeer.jpg" alt="image one">
+    </picture>
+    <picture>
+        <img src="https://placehold.co/300x400/jpg" data-src="images/babydalmation.jpg" alt="image two">
+    </picture>
+    <picture>
+        <img src="https://placehold.co/300x400/jpg" data-src="images/piggysoccor.jpg" alt="image three">
+    </picture>
+    <picture>
+        <img src="https://placehold.co/300x400/jpg" data-src="images/minihusky.jpg" alt="image four">
+    </picture>
+    <picture>
+        <img src="https://placehold.co/300x400/jpg" data-src="images/kittensplaying.jpg" alt="image five">
+    </picture>
+    </header>
+    <footer>
+       <p>&copy;2020 | Chelsea Thomson | Utah | 
+        <a class="weblink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    </footer>         
+    <script src="lazyjavascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google:{families:['Permanent Marker']}});
+    </script>
+    </body>
+</html>
+

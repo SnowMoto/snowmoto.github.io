@@ -1,0 +1,24 @@
+@media only screen and (min-width: 700px){
+    body{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .overlay{
+        font-size: 16px;
+    }
+    div{
+        font-size: 18px;
+    }
+    .article {
+        font-size: 16px;
+    }
+    footer{
+        font-size: 14px;
+    }
+    }
+    

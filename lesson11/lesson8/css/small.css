@@ -1,0 +1,156 @@
+body {
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(49, 55, 66);
+}
+header, main, footer {
+    max-width: 750px;
+    margin: auto;
+}
+header{
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem;
+}
+h1{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: 'Anton', sans-serif;
+}
+.logo{
+    float: left;
+    width: 100px;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.ham{
+   background-color: black;
+   color: rgb(4, 211, 211);
+}
+nav{
+    max-width: 595px;
+    margin: auto;
+    margin-top: .5em;
+    background-color: black;
+    border-radius: 1em;
+}
+.navigation .current{
+    border-bottom: rgb(1, 255, 35);
+    border-bottom-style: double;
+    border-bottom-width: 3px;
+}
+.navigation{
+    list-style: none;
+    padding: 0em;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(4, 211, 211);
+    font-size: 14px;
+    padding: 1em;
+}
+a:hover{
+    background-color: rgb(80, 91, 110);
+    border-radius: 1em;
+}
+.responsive li{
+    display: block;
+}
+
+main{
+    max-width: 36em;
+    margin-bottom: 2em;
+    font-size: 12px;
+    background-color: rgb(49, 55, 66);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(80, 91, 110);
+    color: whitesmoke;
+    padding: 1em;
+}
+/*----------Form----------*/
+form fieldset{
+    margin: 2rem 0;
+    border: 2px solid rgb(4, 211, 211);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: whitesmoke;
+    margin: 0 1rem;
+    font-size: 14px;
+    padding: 0 .5rem;
+}
+form label.top{
+    display: block;
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: 12px;
+}
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: whitesmoke;
+    font-size: 12px;
+}
+form input.submitBtn{
+    border: none;
+    background-color: rgb(1, 255, 35);
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required{
+    border-left: 8px solid rgb(49, 55, 66);
+}
+form label.top input:required:valid{
+    border-left: 8px solid rgb(1, 255, 35);
+}
+textarea{
+    resize: vertical;
+    min-height: .75rem;
+}
+.thanks{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: .5em;
+}
+.danger{
+    text-align: center;
+}
+.weblink{
+    color: black;
+}
+footer{
+    font-size: 12px;
+    background-color: rgb(4, 211, 211);
+    border-radius: 10px;
+    text-align: center;
+    padding: .5rem;
+}
+.foot{
+    background-color:  rgb(4, 211, 211);
+    margin: 0;
+    border-style: none;
+}
