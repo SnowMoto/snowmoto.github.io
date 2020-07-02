@@ -1,6 +1,9 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(49, 55, 66);
+    background-image: url("../images/prestonid3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header, main, footer {
     max-width: 1200px;
