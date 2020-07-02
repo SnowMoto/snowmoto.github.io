@@ -1,12 +1,6 @@
-@media only screen and (min-width: 500px){
-	body{
+@media only screen and (min-width: 720px){
+	div{
         font-size: 18px;
-    }
-    h1{
-        font-size: 22px;
-	}
-    div{
-        font-size: 16px;
     }
 	.navigation {
 		display: flex;
@@ -18,26 +12,22 @@
 	.navigation li:first-child {
 		display: none;
 	}
-	.towns{
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: center;
-	  }  
-	.card, .info{
+	section{
+		border-bottom: 1em solid rgb(4, 211, 211);
+		border-radius: 1em;
+	}
+	.card {
 		display: flex;
 		flex-direction: row;
-		max-width: 100%;
-		padding: 1em;
-	}  
+		justify-content: space-around;
+		align-items: center;
+	}
 	.card:nth-child(odd){
-		  flex-direction: row-reverse;
-	  }
-	.info{
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-gap: 1em;
-		padding: 2em;
-		text-align: center;
-	}  
-}
+		flex-direction: row-reverse;
+	}
+	.info {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 1em;
+	}}

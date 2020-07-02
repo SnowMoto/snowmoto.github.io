@@ -27,17 +27,21 @@
 	.overlay{
 		font-size: 12px;
 		}
-	.five{
-		display: block;
-		font-family: "Anton", sans-serif;
-		margin: 0px;
-		background-color: black;
-		padding: .5em;
-	}
-	.day{
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	}
+		.five{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			background-color: black;
+			border: 8px solid black;
+		}
+		table{
+			display: table;
+			border-collapse: separate;
+			color: rgb(4, 211, 211);
+		}
+		.five td{
+			border: 1px solid whitesmoke
+		}
 	.firstline{
 		float: right;
 		margin: 0 0 0 1%;

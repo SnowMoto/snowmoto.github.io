@@ -33,7 +33,6 @@
     </nav>
         <main>
             <div class="hero">
-                <!--<img src="images/lake.jpeg" class="lake" alt="banner">-->
               <picture>
                 <img src="images/lake.jpeg" class="hero" alt="lake">
                 </picture>
@@ -47,37 +46,39 @@
                     <p>Wind Chill: <span id="chilly"></span></p>
                 </section>
             </div>
+            <h3>5 Day Forecast</h3>
+            <article class="five">
             <table>
                 <thead>            
-                <h4>5 Day Forecast</h4>   
                 <div class="day">
-                    <td><span id="dayofweek1"></span>
-                        <img src="" alt="" id="icon1"> 
-                    <span id="forecast1"></span>&deg; F</td>
-                    
-                    <td><span id="dayofweek2"></span> 
-                        <img src="" alt="" id="icon2"> 
-                    <span id="forecast2"></span>&deg; F</td>
-                    
-                    <td><span id="dayofweek3"></span> 
-                        <img src="" alt="" id="icon3"> 
-                    <span id="forecast3"></span>&deg; F</td>
-                    
-                    <td><span id="dayofweek4"></span>     
-                        <img src="" alt="" id="icon4"> 
-                    <span id="forecast4"></span>&deg; F</td>
-                    
-                    <td><span id="dayofweek5"></span> 
-                        <img src="" alt="" id="icon5"> 
-                    <span id="forecast5"></span>&deg; F</td>
+                    <tr>
+                    <td><span id="dayofweek1"></span></td>
+                    <td><span id="dayofweek2"></span></td>
+                    <td><span id="dayofweek3"></span></td>
+                    <td><span id="dayofweek4"></span></td>
+                    <td><span id="dayofweek5"></span></td>
+                    </tr>
                 </div>
-                </thead>
                 <tbody>
-                  <   
+                    <div class="icon">
+                    <tr>
+                    <td><img src="" alt="" id="icon2">
+                        <span id="forecast1"></span>&deg;F</td></td>
+                    <td><img src="" alt="" id="icon3">
+                        <span id="forecast2"></span>&deg;F</td></td>                     
+                    <td><img src="" alt="" id="icon4">
+                        <span id="forecast3"></span>&deg;F</td></td>                        
+                    <td><img src="" alt="" id="icon5">
+                        <span id="forecast4"></span>&deg;F</td></td>                       
+                    <td><img src="" alt="" id="icon6">
+                        <span id="forecast5"></span>&deg;F</td></td> 
+                    </tr>
                 </tbody>
+            </div>
             </table>
+        </article>
             <section>
-                <h3 class="art">Our Real Heros</h3>
+                <h4 class="art">Our Real Heros</h4>
                 <img src="images/hero.jpg" class="firstline" alt="med">
                 <p class="article">
                     Kim, 32, was a photographer before becoming a paramedic in 2016. He had been an EMT for 13 years, 

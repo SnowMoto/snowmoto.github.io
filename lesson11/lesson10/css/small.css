@@ -1,10 +1,7 @@
 body {
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url("../images/prestonid3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: rgb(49, 55, 66);
 }
 header, main, footer {
     max-width: 750px;
@@ -36,6 +33,7 @@ h2 {
 }
 h3{
     font-family: "Anton", sans-serif;
+    text-align: center;
     color: whitesmoke;
     background-color: black;
     padding: .5em;
@@ -108,7 +106,7 @@ a:hover{
 main{
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: rgb(49, 55, 66);
+    background-color: rgb(80, 91, 110);
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     color: whitesmoke;
@@ -148,20 +146,6 @@ p{
 .five{
     display: none;
 }
-.day{
-    display: none;
-}
-.forecast1, .forecast2, .forecast3, .forecast4, .forecast5{
-    background-color: whitesmoke;
-}
-.temp1, .temp2{
-	background: radial-gradient(whitesmoke, #ff8330);
-    opacity: 1;
-}
-.temp3,.temp4, .temp5{
-    background: radial-gradient(whitesmoke, #1e89d1);
-    opacity: 1;
-}
 img{
     width: 30px;
     position: relative;
@@ -170,7 +154,7 @@ img{
 .art{
     font-family: "Anton", sans-serif;
     background-color: black;
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     padding: .5em;
 }

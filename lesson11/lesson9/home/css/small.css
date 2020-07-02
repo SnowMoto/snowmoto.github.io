@@ -1,10 +1,9 @@
 body {
-    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(49, 55, 66);
 }
 header, main, footer {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 header{
@@ -17,7 +16,6 @@ h1, .motto{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    font-size: 18px;
     color: black;
     font-family: 'Anton', sans-serif;
     padding: .25em;
@@ -74,7 +72,7 @@ a:hover{
 main{
     text-align: center;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 16px;
     background-color: rgb(49, 55, 66);
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -127,7 +125,7 @@ p{
     margin: 0 auto;
 }
 img{
-    max-width: 200px;
+    max-width: 75%;
     box-shadow: 5px 5px 8px black;
     margin-top: 10px;
 }
@@ -136,7 +134,7 @@ img{
     color: black;
 }
 footer{
-    font-size: 12px;
+    font-size: 18px;
     background-color: rgb(4, 211, 211);
     border-radius: 10px;
     text-align: center;

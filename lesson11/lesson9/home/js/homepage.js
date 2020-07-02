@@ -10,8 +10,8 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         for (let i = 0; i < towns.length; i++) {
             if (myTowns.includes(towns[i].name)) {
-            let card = document.createElement('card');
-            let div = document.createElement("info");
+            let card = document.createElement('section');
+            let div = document.createElement("div");
             let h2 = document.createElement('h2');
             let para1 = document.createElement('p');
             let para2 = document.createElement('p');

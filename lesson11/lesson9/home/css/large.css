@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 900px){
     body{
         font-size: 20px;
     }
@@ -14,33 +14,38 @@
         border-top: none;
     }
     .rodeo{
+        max-width: 300px;
         margin-left: .25em;
         z-index: 2;
         transform: rotate(-15deg);
     }
     .music{
+        max-width: 300px;
         display: block;
         margin-top:-8em; 
         margin-right: .5em;
         transform: rotate(10deg);
     }
-    .towns{
-        display: flex;
-        flex-direction: row;
+
+    .towns {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .info {
+        display: block;
+    }
+    section{
+        border-bottom: none;
+        border-left: 1em solid rgb(4, 211, 211);
+        border-right: 1em solid rgb(4, 211, 211);
+        padding: .5em;
     }
     .card{
         display: flex;
         flex-direction: column;
     }
-    .info{
-        display: flex;
+
+    .card:nth-child(odd){
         flex-direction: column;
-    }
-    img{
-        max-width: 300px;
-    }
-    footer{
-        font-size: 14px;
-    }
-    }
+	}}
     
