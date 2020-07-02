@@ -14,13 +14,11 @@
         border-top: none;
     }
     .rodeo{
-        max-width: 300px;
         margin-left: .25em;
         z-index: 2;
         transform: rotate(-15deg);
     }
     .music{
-        max-width: 300px;
         display: block;
         margin-top:-8em; 
         margin-right: .5em;
