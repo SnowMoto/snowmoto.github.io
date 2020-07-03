@@ -6,29 +6,19 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
-        const southern = towns.filter(town => (town.name == 'Preston'));
-
-        southern.forEach(town => {
-
+        const local = towns.filter(town => (town.name == 'Preston'));
+        
+        local.forEach(town => {
+            let i= 0;
             let eachTown = document.createElement('article');
             let ul = document.createElement('ul');
-            let li1 = document.createElement('li');
-            let li2 = document.createElement('li');
-            let li3 = document.createElement('li');
-            let li4 = document.createElement('li');
-
+            let li = document.createElement('li');
+            
             eachTown.appendChild(ul)
 
-            li1.innerHTML = `${town.events[1]}`;
-            ul.appendChild(li1);
-
-            li2.innerHTML = `${town.events[2]}`;
-            ul.appendChild(li2);
-
-            li3.innerHTML = `${town.events[0]}`;
-            ul.appendChild(li3);
-
+            li.innerHTML = `${town.events[i]}`;
+            ul.appendChild(li);
             document.querySelector('div.local-events').appendChild(eachTown);
+            (i++);
         });
-
     });
