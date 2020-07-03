@@ -11,4 +11,3 @@ let months = ["January", "February", "March", "April", "May", "June", "July", "A
 
 let date = days[today.getDay()] + ', ' + today.getDate() + " " + months[today.getMonth()] + " " + today.getFullYear();
 document.getElementById("date").innerHTML = date;}
-
