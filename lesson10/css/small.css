@@ -4,7 +4,7 @@ body {
     background-color: rgb(49, 55, 66);
 }
 header, main, footer {
-    max-width: 750px;
+    max-width: 1000px;
     margin: auto;
 }
 header{

@@ -4,7 +4,7 @@ body {
     background-color: rgb(49, 55, 66);
 }
 header, main, footer {
-    max-width: 750px;
+    max-width: 1000px;
     margin: auto;
 }
 header{
@@ -32,6 +32,7 @@ h2 {
     font-size: 18px;
 }
 h3{
+    font-size: 18px;
     font-family: "Anton", sans-serif;
     text-align: center;
     color: whitesmoke;
@@ -151,23 +152,14 @@ img{
     position: relative;
     margin: auto;
 }
-.local-events ul{
-    list-style: none;
-    max-width: 50%;
-    margin: auto;
-    border: 5px solid black;
-    padding: 0;
+.local-events{
+    background-image: url("../images/festive.jpg");
+    background-size: 100%;
+    margin-top: 1.2em;
+    padding-bottom: .5em;
 }
 .local-events li{
-    background-color: rgb(4, 211, 211);
-    padding: .5em;
-}
-.art{
-    font-family: "Anton", sans-serif;
-    background-color: black;
-    font-size: 22px;
-    color: whitesmoke;
-    text-align: center;
+    list-style: none;
     padding: .5em;
 }
 .firstline{
@@ -192,7 +184,7 @@ img{
     color: black;
 }
 footer{
-    font-size: 12px;
+    font-size: 14px;
     background-color: rgb(4, 211, 211);
     border-radius: 10px;
     text-align: center;

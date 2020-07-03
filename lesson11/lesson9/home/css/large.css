@@ -45,5 +45,9 @@
 
     .card:nth-child(odd){
         flex-direction: column;
-	}}
+    }
+    footer{
+        font-size: 18px;
+    }
+}
     

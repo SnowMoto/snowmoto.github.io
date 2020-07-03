@@ -4,7 +4,7 @@ body {
     background-color: rgb(49, 55, 66);
 }
 header, main, footer {
-    max-width: 750px;
+    max-width: 1000px;
     margin: auto;
 }
 header{
@@ -145,7 +145,7 @@ textarea{
 footer{
     font-size: 12px;
     background-color: rgb(4, 211, 211);
-    border-radius: 10px;
+    border-radius: 14px;
     text-align: center;
     padding: .5rem;
 }

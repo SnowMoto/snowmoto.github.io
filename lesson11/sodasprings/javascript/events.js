@@ -6,7 +6,7 @@ fetch(requestURL)
     })
     .then(jsonObject => {
         const prestonEvents = jsonObject.towns.find(town => {
-          return town.name == 'Preston';
+          return town.name == 'Soda Springs';
         }).events;
     
         prestonEvents.forEach(event => {
