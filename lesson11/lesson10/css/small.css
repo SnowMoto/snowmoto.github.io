@@ -151,10 +151,21 @@ img{
     position: relative;
     margin: auto;
 }
+.local-events ul{
+    list-style: none;
+    max-width: 50%;
+    margin: auto;
+    border: 5px solid black;
+}
+.local-events li{
+    background-color: rgb(4, 211, 211);
+    padding: .5em;
+}
 .art{
     font-family: "Anton", sans-serif;
     background-color: black;
-    font-size: 24px;
+    font-size: 22px;
+    color: whitesmoke;
     text-align: center;
     padding: .5em;
 }

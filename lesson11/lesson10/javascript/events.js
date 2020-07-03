@@ -1,34 +1,34 @@
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        const towns = jsonObject["towns"];
-        const events = towns.filter(towns => (towns.name == 'Preston'));
+        const towns = jsonObject['towns'];
+        const southern = towns.filter(town => (town.name == 'Preston'));
 
-        events.forEach(town => {
-            let eachTown = document.getElementById('article');
-            let h4 = document.getElementById('h4');
-            let ul = document.getElementById('ul');
-            let one = document.getElementById('li');
-            let two = document.getElementById('li');
-            let three = document.getElementById('li');
+        southern.forEach(town => {
 
-            eachTown.appendChild(ul);
+            let eachTown = document.createElement('article');
+            let ul = document.createElement('ul');
+            let li1 = document.createElement('li');
+            let li2 = document.createElement('li');
+            let li3 = document.createElement('li');
+            let li4 = document.createElement('li');
 
-            h4.textContent = `Events Coming Up`;
-            eachTown.appendChild(h4);
+            eachTown.appendChild(ul)
 
-            one.textContent = `${town.events[0]}`;
-            ul.appendChild('one');
+            li1.innerHTML = `${town.events[1]}`;
+            ul.appendChild(li1);
 
-            two.textContent = `${town.events[1]}`;
-            ul.appendChild('two');
+            li2.innerHTML = `${town.events[2]}`;
+            ul.appendChild(li2);
 
-            three.textContent = `${town.events[2]}`;
-            ul.appendChild('three');
+            li3.innerHTML = `${town.events[0]}`;
+            ul.appendChild(li3);
 
             document.querySelector('div.local-events').appendChild(eachTown);
         });
+
     });
