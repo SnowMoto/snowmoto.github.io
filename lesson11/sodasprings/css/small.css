@@ -160,12 +160,12 @@ img{
     padding: .5em;
 }
 .music{
-    width: 50%;
+    width: 300px;
     float: right;
     box-shadow: 7px 7px 10px black;
 }
 section{
-    padding: 1em;
+    padding: 2em;
 }
 .article{
     text-align: left;
