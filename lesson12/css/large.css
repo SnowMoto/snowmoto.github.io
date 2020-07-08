@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em){
+
+    .logo{
+        max-width: 100%;
+        margin-top: -3em;
+    } 
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.75em;
+    }
+
+    p{
+        font-size: 1.15em;
+    }
+
+    img.collage {
+        width: 450px;
+        float: left;
+        padding: .75em;
+    }
+
+    .article{
+        font-size: 1em;
+    }
+    .button {
+        font-size: 1em;
+        padding: .5em;
+    }
+    .text{
+        font-size: 20px;
+    }
+    
+    .media{
+        text-align: left;
+        margin-top: -1em;
+        font-weight: 700;
+        font-size: .9em;
+        padding-left: 1.1em;
+        padding-top: .5em;
+    }    
+
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+        width: 20px;
+    }
+ 
+    footer{
+        font-size: 18px;
+    }
+}
+
+
+

@@ -1,0 +1,40 @@
+@media only screen and (min-width: 48em) {
+    img.hero {
+        max-width: 100%;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .five {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        font-size: 1em;
+        font-weight: 900;
+        text-align: center;
+        background-image: url("../images/ocean.jpg");
+    }
+
+    .icon {
+        max-width: 30%;
+    }
+    .media{
+        font-size: .75em;
+    }
+}
+    

@@ -1,4 +1,4 @@
-function windChill() {
+function weatherSummary() {
     let temp = parseFloat(document.getElementById("temp").textContent);
     let mph = parseFloat(document.getElementById("wspd").textContent);
 
