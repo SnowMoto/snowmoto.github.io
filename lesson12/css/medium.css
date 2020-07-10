@@ -33,8 +33,26 @@
     .icon {
         max-width: 30%;
     }
-    .media{
+
+    h3 {
+        padding-top: 4em;
+    }
+
+    .rent {
+        display: none;
+    }
+
+    img.collage {
+        width: 450px;
+        float: left;
+        padding: .75em;
+    }
+
+    .article {
+        margin-top: 7em;
+    }
+
+    .media {
         font-size: .75em;
     }
 }
-    

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reservation Page</title>
+    <meta name="description" content="WDD230 Spring 2020 Final Project-Scoots Rental">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+<body>
+    <header>
+        <img src="images/logo.png" class="logo" alt="scoot logo">
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="">Rentals</a></li>
+            <li><a href="">Tours</a></li>
+            <li><a class="current" href="#">Reservation</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="images/ocean.jpg" class="wave" alt="waves">
+        <h1 class="title">Rental Agreement and Reservation</h1>
+    <div class="terms">
+        <h2 class="con">Terms and Conditions</h2>
+        <ul>
+            <li>$50 security deposit is required to confirm reservations.</li>
+            <li>A valid driver lincense is required in hand at time of rental.</li>
+            <li>No one under 12 yrs of age may ride on scooters.</li>
+            <li>Fuel charge not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is free of charge.</li>
+            <li>Reservations rate requires 24hr prior notification.</li>
+            <li>Free deliver to Cuzumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+            <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+            <li>Rentals may be retuned to either location and must be cleaned.</li>
+        </ul>
+        </div>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <label class="top">First & Last Name*<input type="text" name="fname" pattern="[A-Za-z].{5,}" required></label> 
+                <label class="top">Email*<input type="email" name="email" placeholder="scoots@gmail.com" required></label> 
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="19871234567" required></label> 
+                <label class="top">State/Country*<input type="text" name="state" required></label> 
+            </fieldset>
+            <fieldset>
+                <legend>Rental Reserve</legend>
+                <label class="sbs">Rental Date:<br><input type="date" id="calendar" required> 
+                <label class="sbs">Rental Type:<br><select name="rental" required>
+                    <option value="">Please Select</option>
+                    <option value="metro">Honda Metro</option>
+                    <option value="dio">Honda Dio</option>
+                    <option value="pcx">Honda PCX150</option>
+                    <option value="atv">Honda Pioneer ATV</option>
+                    <option value="4dr w/ac">Jeep 4dr w/ac</option>
+                    <option value="2dr">Jeep 2dr</option>
+                    </select></label>        
+                <label class="sbs">Cruise Line:<br><select name="cruise" required>
+                    <option value="">Please Select</option>
+                    <option value="carnival">Carnival</option>
+                    <option value="celebrity">Celebrity</option>
+                    <option value="crystal">Crystal</option>
+                    <option value="disney">Disney</option>
+                    <option value="holland-america">Holland America</option>
+                    <option value="norwegian">Norwegian (NCL)</option>
+                    <option value="princess">Princess</option>
+                    <option value="regent">Regent</option>    
+                </select></label> 
+                <label class="sbs">Pick up and Drop off?<br><input type="radio" name="pick up and drop off?" value="yes" required>Yes</label> 
+                <label class="sbs"><input type="radio" name="pick up and drop off?" value="no">No</label> 
+                <label class="sbs">Need Special Accomidations?<br><input type="radio" name="need special accomidations?" value="yes" required>Yes</label> 
+                <label class="sbs"><input type="radio" name="need special accomidations?" value="no">No</label> 
+            </fieldset>
+            <fieldset>
+                <legend>List accomidations needed here<br> or any further information.</legend>
+                <label class="top"><textarea name="comment" rows="4" cols="50"></textarea></label> 
+            </fieldset><br>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>    
+    </main>
+    <footer>
+        <p class="foot">&copy;~Scoots | Attributions | Chelsea Thomson<br>
+            <span id="date"></span>
+    </footer>
+    <script src="javascript/java.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google:{families:['Staatliches']}});
+            WebFont.load({
+            google:{families:['Barlow']}});    
+
+    </script>
+</body>
+
+</html>

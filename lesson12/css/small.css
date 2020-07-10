@@ -8,7 +8,7 @@ body {
 header,
 main,
 footer {
-    max-width: 1000px;
+    max-width: 1065px;
     margin: auto;
 }
 
@@ -20,7 +20,7 @@ footer {
 }
 
 nav {
-    max-width: 1000px;
+    max-width: 1065px;
     margin: auto;
     margin-top: 3em;
     background-color: #ffc670;
@@ -127,7 +127,11 @@ h3 {
     font-size: .8em;
 }
 
-img.collage {
+.rent{
+    display: none;
+}
+
+.collage {
     max-width: 75%;
     padding-left: 2em;
 }
@@ -162,7 +166,7 @@ img.collage {
     text-align: center;
     font-weight: 700;
     font-size: .5em;
-    padding-bottom: 1em;
+    margin: 0em;
 }
 
 .fa {
@@ -193,6 +197,8 @@ img.collage {
 
 .contact{
     display: flex;
+    justify-content: center;
+    align-content: center;
     text-align: center;
     padding-left: 2em;
     padding-right: 2em;
@@ -204,7 +210,7 @@ img.collage {
 }
 
 footer {
-    font-size: 14px;
+    font-size: 1em;
     color: black;
     background-color: #ffc670;
     text-align: center;
@@ -215,4 +221,123 @@ footer {
     background-color: #ffc670;
     margin: 0;
     border-style: none;
+}
+
+/*form*/
+img.wave{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 4em;
+    border-bottom-left-radius: 4em;
+}
+.title{
+    position: relative;
+    margin-top: -1.5em;
+}
+
+.con{
+    margin: auto;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.5em;
+    color: #ff7770;
+    padding: .25em;
+    border: none;
+}
+
+.terms{
+    position: relative;
+    border: 3px whitesmoke solid;
+    padding: 1em;
+}
+
+form fieldset{
+    max-width: 30em;
+    margin: auto;
+    border: 2px solid ;
+    border-radius: 10px;
+}
+
+form legend{
+    color: whitesmoke;
+    margin: 0 1rem;
+    font-size: 1em;
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+form.top{
+    padding-bottom: 2em;
+}
+form label.top{
+    display: block;
+    padding: .75em;
+    color: whitesmoke;
+    font-size: 1em;
+    text-align: center;
+}
+
+form label.top input, form label.top select{
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    margin: auto;
+}
+form label.sbs{
+    display: block;
+    padding: .75em;
+    color: whitesmoke;
+    font-size: 1em;
+    text-align: center;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #45cfd9;
+    color: black;
+    border-radius: .5em;
+    width: 100%;
+    margin: 0 0 5rem 40%;
+    max-width: 8em;
+    padding: .5em;
+}
+
+form label.top input:required{
+    border-left: 8px solid ;
+}
+
+form label.top input:required:valid{
+    border-left: 8px solid ;
+}
+
+textarea{
+    resize: vertical;
+    min-width: auto;
+    min-height: .5rem;
+}
+
+.thanks{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: .5em;
+}
+
+/*thank you*/
+.thanks{
+    text-align: center;
+    padding: 1em;
+}
+.thanks img{
+    margin: auto;
+    border-top-right-radius: 5em;
+    border-bottom-left-radius: 5em;
+    position: relative;;
+}
+.thanks p{
+    font-size: 1.25em;
 }

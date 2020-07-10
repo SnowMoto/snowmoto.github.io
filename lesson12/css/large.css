@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 68em){
 
     .logo{
         max-width: 100%;
@@ -14,20 +14,25 @@
 
     h3{
         font-size: 1.75em;
+        padding-top: 0em;
     }
 
     p{
         font-size: 1.15em;
     }
 
+    .rent{
+        display: block;
+        width: 100%;
+    }
+
     img.collage {
-        width: 450px;
-        float: left;
-        padding: .75em;
+        display: none;
     }
 
     .article{
         font-size: 1em;
+        margin-top: 1em;
     }
     .button {
         font-size: 1em;
@@ -38,12 +43,8 @@
     }
     
     .media{
-        text-align: left;
-        margin-top: -1em;
         font-weight: 700;
         font-size: .9em;
-        padding-left: 1.1em;
-        padding-top: .5em;
     }    
 
     .fa {
@@ -53,7 +54,7 @@
     }
  
     footer{
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
