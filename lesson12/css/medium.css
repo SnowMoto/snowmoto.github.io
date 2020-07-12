@@ -14,6 +14,7 @@
 
     .navigation a {
         text-align: center;
+        font-size: 1em;
     }
 
     .navigation li:first-child {
@@ -34,8 +35,23 @@
         max-width: 30%;
     }
 
-    h3 {
-        padding-top: 4em;
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1.75em;
+        padding-top: 1em;
+        margin: 0;   
+    }
+
+    p{
+        font-size: 1.15em;
+        padding-left: 1em;
     }
 
     .rent {

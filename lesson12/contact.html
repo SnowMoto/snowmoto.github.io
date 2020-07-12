@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scoots Home Page</title>
-    <meta name="description" content="WDD230 Spring 2020 Final Project">
+    <title>Contact Page</title>
+    <meta name="description" content="Contains needed contact info for customers.">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -13,23 +13,17 @@
     <link rel="stylesheet" href="css/large.css">
 
 <body>
-    <div class="popup">
-        <img src="images/pancake.jpg" class="pancake" alt="breakfast">
-        <button class="click" type="button" onclick="addPopup()">Who wants Pancakes!<br>Click Here</button>
-    </div>
     <header>
-        <img src="images/logo5.jpg" class="logo" alt="weather logo">
-        <h1>Welcome to Scoots Rental in Cozumel</h1>
-        <div>Your #1 Shop for rentals and vacation planning!</div>
+        <img src="images/logo.png" class="logo" alt="weather logo">
     </header>
     <nav>
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-            <li><a class="current" href="#">Home</a></li>
-            <li><a href="">Rentals</a></li>
-            <li><a href="">Reservations</a></li>
-            <li><a href="">Tours</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="rental.html">Rentals</a></li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a class="current" href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -37,89 +31,48 @@
             <picture>
                 <img src="images/cozumelhero.jpg" class="hero" alt="ocean">
             </picture>
-            <h2>Cozumel</h2>
-            <section class="overlay">
-                <h3>Current Weather</h3>
-                <p>Sky Condition: <span id="condition"></span></p>
-                <p>Current Temp: <span id="temp"></span>&deg; F</p>
-                <p>Humidity: <span id="percent"></span> %</p>
-                <p>Wind Speed: <span id="wspd"></span> mph</p>
-                <p>Wind Chill: <span id="chilly"></span></p>
-            </section>
-        </div>
-        <h3>5 Day Forecast</h3>
-        <article class="five">
-            <table>
-                <thead>
-                    <div class="day">
-                        <tr>
-                            <td><span id="dayofweek1"></span></td>
-                            <td><span id="dayofweek2"></span></td>
-                            <td><span id="dayofweek3"></span></td>
-                            <td><span id="dayofweek4"></span></td>
-                            <td><span id="dayofweek5"></span></td>
-                        </tr>
-                    </div>
-                <tbody>
-                    <div class="icon">
-                        <tr>
-                            <td><img src="" alt="" id="icon2">
-                                <span id="forecast1"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon3">
-                                <span id="forecast2"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon4">
-                                <span id="forecast3"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon5">
-                                <span id="forecast4"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon6">
-                                <span id="forecast5"></span>&deg;F</td>
-                            </td>
-                        </tr>
-                </tbody>
-                </div>
-            </table>
-        </article>
-        <section>
-            <h3>~Scoots Rental and Tours</h3>
-            <img src="images/collage.png" class="collage" alt="rental">
-            <p class="article">
-                Explore the island with our latest models of Honda Scooters and ATV's, 
-                plus did we forget to mention we have the latest Jeep Wranglers!
-                Don't forget to check out our tours for Jeep and ATV excursions.   
-            </p>
-        </section>
-        <section class="contact">
-            <img src="images/ferrylocation.jpg" class="loca-1" alt="ferry">
-            <div class="address">
-                    <h3>Contact Us</h3>
+            <h3>Contact Us</h3>
+            <section class="contact">
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8592000464205!2d-86.95296768255619!3d20.5119974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x8f4e59cf3a0ece15%3A0x9216e3c2b55e5526!2sPlaya%20del%20Carmen-Cozumel%20Ferry%20Dock!5e0!3m2!1sen!2sus!4v1594592322529!5m2!1sen!2sus
+                " width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe><br>
+                    <p>
                     ~Scoots<br>
                     Av. Rafael E. Melgar, Centro, 77600<br>
                     San Miguel de Cozumel, Q.R., Mexico
                     <span>&#x1F4F1;1-987-1SC-OOTS</span><br>
-                    scoots@gmail.com
-            <img src="images/cruiselocation.jpg" class="loca-2" alt="cruise">
-            <div class="address">
-                    <h3>Contact Us</h3>
+                    scoots@gmail.com<br>
+                    </p>    
+                </div>
+                <div><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14950.656854719238!2d-86.9823832302246!3d20.478980300000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                1!3m3!1m2!1s0x8f4e574e45d94f5f%3A0x33e0a37b1a48073f!2sCruise%20Ship%20Terminal%2C%20Cozumel%2C%20Mexico!5e0!3m2!1sen!2sus!4v1594593391829!5m2!1sen!2sus"
+                        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe><br>
+                    <p>        
                     ~Scoots<br>
                     Carretera Chankanaab km 4.5, Carretera Costera Sur, 77600<br>
                     San Miguel de Cozumel, Q.R., Mexico
                     <span>&#x1F4F1;1-987-2SC-OOTS</span><br>
                     scoots@gmail.com
+                    </p>
                 </div>
-        </section>
+            </section>
     </main>
     <footer>
         <p class="foot">&copy;~Scoots | Attributions | Chelsea Thomson<br>
             <span id="date"></span>
     </footer>
-    <script src="javascript/reservationcall.js"></script>
-    <script src="javascript/java.js"></script>
-    <script src="javascript/weatherapi.js"></script>
-    <script src="javascript/forecast.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" style="font-display: auto;"></script>
+    <script>
+        WebFont.load({
+            google:{families:['Staatliches']}});
+            WebFont.load({
+            google:{families:['Barlow']}});    
+
+    </script>
 </body>
 
 </html>
