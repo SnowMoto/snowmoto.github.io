@@ -35,21 +35,21 @@
         max-width: 30%;
     }
 
-    h1{
+    h1 {
         font-size: 2em;
     }
 
-    h2{
+    h2 {
         font-size: 1.5em;
     }
 
-    h3{
+    h3 {
         font-size: 1.75em;
         padding-top: 1em;
-        margin: 0;   
+        margin: 0;
     }
 
-    p{
+    p {
         font-size: 1.15em;
         padding-left: 1em;
     }
@@ -70,5 +70,9 @@
 
     .media {
         font-size: .75em;
+    }
+
+    .info {
+        font-size: 1em;
     }
 }

@@ -20,8 +20,8 @@
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a class="current" href="#">Home</a></li>
-            <li><a href="rental.html">Rentals</a></li>
             <li><a href="tours.html">Tours</a></li>
+            <li><a href="rental.html">Rentals</a></li>
             <li><a href="reservation.html">Reservation</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -40,74 +40,67 @@
                 <p>Wind: <span id="wspd"></span> mph</p>
             </section>
         </div>
+        <h3 class="weather">5 Day Forecast</h3>
         <article class="five">
             <table>
                 <thead>
-                    <div class="day">
-                        <tr>
-                            <td><span id="dayofweek1"></span></td>
-                            <td><span id="dayofweek2"></span></td>
-                            <td><span id="dayofweek3"></span></td>
-                            <td><span id="dayofweek4"></span></td>
-                            <td><span id="dayofweek5"></span></td>
-                        </tr>
-                    </div>
+                    <tr class="day">
+                        <td><span id="dayofweek1"></span></td>
+                        <td><span id="dayofweek2"></span></td>
+                        <td><span id="dayofweek3"></span></td>
+                        <td><span id="dayofweek4"></span></td>
+                        <td><span id="dayofweek5"></span></td>
+                    </tr>
                 <tbody>
-                    <div class="icon">
-                        <tr>
-                            <td><img src="" alt="" id="icon2">
-                                <span id="forecast1"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon3">
-                                <span id="forecast2"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon4">
-                                <span id="forecast3"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon5">
-                                <span id="forecast4"></span>&deg;F</td>
-                            </td>
-                            <td><img src="" alt="" id="icon6">
-                                <span id="forecast5"></span>&deg;F</td>
-                            </td>
-                        </tr>
+                    <tr class="icon">
+                        <td><img src="#" alt="" id="icon2">
+                            <span id="forecast1"></span>&deg;F</td>
+                        <td><img src="#" alt="" id="icon3">
+                            <span id="forecast2"></span>&deg;F</td>
+                        <td><img src="#" alt="" id="icon4">
+                            <span id="forecast3"></span>&deg;F</td>
+                        <td><img src="#" alt="" id="icon5">
+                            <span id="forecast4"></span>&deg;F</td>
+                        <td><img src="#" alt="" id="icon6">
+                            <span id="forecast5"></span>&deg;F</td>
+                    </tr>
                 </tbody>
-                </div>
             </table>
         </article>
         <section>
             <h3>~Scoots Services</h3>
             <img src="images/collage.png" class="collage" alt="rental">
             <div class="rent">
-            <img src="images/jeep.jpg" class="rent1" alt="jeep">
-            <img src="images/scooter.jpg" class="rent2" alt="scooter">
-            <img src="images/atv.jpg" class="rent3" alt="atv">
+                <img src="images/jeep.jpg" class="rent1" alt="jeep">
+                <img src="images/scooter.jpg" class="rent2" alt="scooter">
+                <img src="images/atv.jpg" class="rent3" alt="atv">
             </div>
             <p class="article">
                 Explore the island with our latest models of Honda Scooters, ATV's,<br> & Jeep Wranglers!<br><br>
                 Don't forget to check out our Tours!<br> It has a list of "Must Do" on your vacation.<br>
                 <div class="button-wrapper">
                     <a class="button text" href="reservation.html">Reserve Today</a>
-                </div></p>
-                <p class="media">Follow us for local updates:
-            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
-            <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
+                </div>
+            </p>
+            <p class="media">Follow us for local updates:
+                <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
             </p>
         </section>
         <h3>Contact Us</h3>
         <section class="contact">
-            <p>  
-            Av.Rafael E. Melgar, Centro,<br> 77600
-            San Miguel de Cozumel, Q.R., Mexico<br>
-            <span>&#x1F4F1;1-987-1SC-OOTS</span><br>
-            scoots@gmail.com</p>
             <p>
-            Carretera Chankanaab km 4.5, <br>Carretera Costera Sur, 77600<br>
-            San Miguel de Cozumel, Q.R., Mexico<br>
-            <span>&#x1F4F1;1-987-2SC-OOTS</span><br>
-            scoots@gmail.com
-        </p>
+                Av.Rafael E. Melgar, Centro,<br> 77600
+                San Miguel de Cozumel, Q.R., Mexico<br>
+                <span>&#x1F4F1;1-987-1SC-OOTS</span><br>
+                scoots@gmail.com</p>
+            <p>
+                Carretera Chankanaab km 4.5, <br>Carretera Costera Sur, 77600<br>
+                San Miguel de Cozumel, Q.R., Mexico<br>
+                <span>&#x1F4F1;1-987-2SC-OOTS</span><br>
+                scoots@gmail.com
+            </p>
         </section>
     </main>
     <footer>
@@ -120,10 +113,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
-            google:{families:['Staatliches']}});
-            WebFont.load({
-            google:{families:['Barlow']}});    
-
+            google: {
+                families: ['Staatliches']
+            }
+        });
+        WebFont.load({
+            google: {
+                families: ['Barlow']
+            }
+        });
     </script>
 </body>
 

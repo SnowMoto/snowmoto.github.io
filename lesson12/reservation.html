@@ -20,8 +20,9 @@
         <ul class="navigation">
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="home.html">Home</a></li>
-            <li><a href="rental.html">Rentals</a></li>
             <li><a href="tours.html">Tours</a></li>
+
+            <li><a href="rental.html">Rentals</a></li>
             <li><a class="current" href="#">Reservation</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -53,7 +54,7 @@
             </fieldset>
             <fieldset>
                 <legend>Rental Reserve</legend>
-                <label class="sbs">Rental Date:<br><input type="date" id="calendar" required> 
+                <label class="sbs">Rental Date:<br><input type="date" id="calendar" required></label>
                 <label class="sbs">Rental Type:<br><select name="rental" required>
                     <option value="">Please Select</option>
                     <option value="metro">Honda Metro</option>
@@ -80,8 +81,8 @@
                 <label class="sbs"><input type="radio" name="need special accomidations?" value="no">No</label> 
             </fieldset>
             <fieldset>
-                <legend>List accomidations needed here<br> or any further information.</legend>
-                <textarea name="comment" rows="4" cols="60"></textarea>
+                <legend>List accomidations needed here<br> & other information.</legend>
+                <label for="comment">Comments:<textarea id="comment" name="user_comment" rows="4" cols="60"></textarea></label>
             </fieldset><br>
             <input type="submit" value="Submit" class="submitBtn">
         </form>    
