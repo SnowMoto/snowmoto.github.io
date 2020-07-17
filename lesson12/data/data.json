@@ -39,8 +39,9 @@
                 "F = $50"
             ],
             "walkin": [
-                "Half Day (3 hrs) = $45",
-                "Full Day = $55"
+                "H (3 hrs) = $45",
+                
+                "F = $55"
             ]
         },
         {
@@ -48,8 +49,9 @@
             "model": "Pioneer ATV",
             "maxseat": "4",
             "reserve": [
-                "Half Day (3 hrs) = $50",
-                "Full Day = $70"
+                "H (3 hrs) = $50",
+                
+                "F = $70"
             ],
             "walkin": [
                 "H (3 hrs) = $60",
@@ -77,8 +79,9 @@
             "model": "Wrangler-2dr",
             "maxseat": "4",
             "reserve": [
-                "Half Day (3 hrs) = $60",
-                "Full Day = $85"
+                "H (3 hrs) = $60",
+                
+                "F = $85"
             ],
             "walkin": [
                 "H (3 hrs) = $70",
