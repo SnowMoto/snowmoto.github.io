@@ -1,80 +1,90 @@
 {
-    "rentals":[
-    {    
-    "name": "Honda",
-    "model": "Metro Scooter",
-    "maxseat": "1",
-    "reserve":[
-        "Half Day (3 hrs) = $20",
-        "Full Day = $30"     
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $25",
-        "Full Day = $35"
+    "rentals": [{
+            "name": "Honda",
+            "model": "Metro Scooter",
+            "maxseat": "1",
+            "reserve": [
+                "H (3 hrs) = $20",
+
+                "F = $30"
+            ],
+            "walkin": [
+                "H (3 hrs) = $25",
+
+                "F = $35"
+            ]
+        },
+        {
+            "name": "Honda",
+            "model": "Dio Scooter",
+            "maxseat": "2",
+            "reserve": [
+                "H (3 hrs) = $30",
+
+                "F = $40"
+            ],
+            "walkin": [
+                "H (3 hrs) = $35",
+
+                "F = $40"
+            ]
+        },
+        {
+            "name": "Honda",
+            "model": "PCX150 Scooter",
+            "maxseat": "2",
+            "reserve": [
+                "H (3 hrs) = $40",
+
+                "F = $50"
+            ],
+            "walkin": [
+                "Half Day (3 hrs) = $45",
+                "Full Day = $55"
+            ]
+        },
+        {
+            "name": "Honda",
+            "model": "Pioneer ATV",
+            "maxseat": "4",
+            "reserve": [
+                "Half Day (3 hrs) = $50",
+                "Full Day = $70"
+            ],
+            "walkin": [
+                "H (3 hrs) = $60",
+
+                "F = $80"
+            ]
+        },
+        {
+            "name": "Jeep",
+            "model": "Wrangler-4dr w/ac",
+            "maxseat": "5",
+            "reserve": [
+                "H (3 hrs) = $70",
+
+                "F = $100"
+            ],
+            "walkin": [
+                "H (3 hrs) = $85",
+
+                "F = $125"
+            ]
+        },
+        {
+            "name": "Jeep",
+            "model": "Wrangler-2dr",
+            "maxseat": "4",
+            "reserve": [
+                "Half Day (3 hrs) = $60",
+                "Full Day = $85"
+            ],
+            "walkin": [
+                "H (3 hrs) = $70",
+
+                "F = $90"
+            ]
+        }
     ]
-},
-{
-    "name": "Honda",
-    "model": "Dio Scooter",
-    "maxseat":"2",
-    "reserve": [
-        "Half Day (3 hrs) = $30",
-        "Full Day = $40"
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $35",
-        "Full Day = $40"
-    ]
-},
-{
-    "name":"Honda",
-    "model": "PCX150 Scooter",
-    "maxseat": "2",
-    "reserve":[
-        "Half Day (3 hrs) = $40",
-        "Full Day = $50"
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $45",
-        "Full Day = $55"
-    ]
-},
-{
-    "name":"Honda",
-    "model": "Pioneer ATV",
-    "maxseat":"4",
-    "reserve":[
-        "Half Day (3 hrs) = $50",
-        "Full Day = $70"
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $60",
-        "Full Day = $80"
-    ]
-},
-{
-    "name":"Jeep",
-    "model":"Wrangler-4dr w/ac",
-    "maxseat":"5",
-    "reserve":[
-        "Half Day (3 hrs) = $70",
-        "Full Day = $100"
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $85",
-        "Full Day = $125"
-    ]
-},
-{
-    "name":"Jeep",
-    "model":"Wrangler-2dr",
-    "maxseat":"4",
-    "reserve":[
-        "Half Day (3 hrs) = $60",
-        "Full Day = $85"
-    ],
-    "walkin":[
-        "Half Day (3 hrs) = $70",
-        "Full Day = $90"
-    ]
-}]}
+}
