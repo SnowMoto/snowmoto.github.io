@@ -8,7 +8,7 @@
         "Half Day (3 hrs) = $20",
         "Full Day = $30"     
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $25",
         "Full Day = $35"
     ]
@@ -21,7 +21,7 @@
         "Half Day (3 hrs) = $30",
         "Full Day = $40"
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $35",
         "Full Day = $40"
     ]
@@ -34,7 +34,7 @@
         "Half Day (3 hrs) = $40",
         "Full Day = $50"
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $45",
         "Full Day = $55"
     ]
@@ -47,7 +47,7 @@
         "Half Day (3 hrs) = $50",
         "Full Day = $70"
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $60",
         "Full Day = $80"
     ]
@@ -60,7 +60,7 @@
         "Half Day (3 hrs) = $70",
         "Full Day = $100"
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $85",
         "Full Day = $125"
     ]
@@ -73,7 +73,7 @@
         "Half Day (3 hrs) = $60",
         "Full Day = $85"
     ],
-    "walk-in":[
+    "walk in":[
         "Half Day (3 hrs) = $70",
         "Full Day = $90"
     ]
