@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Confirmation Page</title>
-    <meta name="description" content="Confirm Reservation and deposit reminder">
+    <title>Rental Rates</title>
+    <meta name="description" content="Rates of rentals for reserved and walkin">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -21,36 +21,74 @@
             <li><a class="ham" href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
             <li><a href="home.html">Home</a></li>
             <li><a href="tours.html">Tours</a></li>
-            <li><a href="rental.html">Rentals</a></li>
-            <li><a class="current" href="#">Reservation</a></li>
+            <li><a class="current" href="#">Rentals</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Rentals and Pricing</h1>
-        <p>Rental prices are subject to change due to exconomy cost increase.<br> 
+        <img src="images/ocean.jpg" class="wave" alt="waves">
+        <h1 class="h-title">Rentals and Pricing</h1>
+        <p class="notice">Rental prices are subject to change due to exconomy cost increase.<br>
             All reservations made will be guaranteed price. </p>
+        <div class="rent-pics">
+            <picture>
+                <img src="images/metro.jpg" alt="metro">
+                <figcaption>Honda Metro Scooter</figcaption>
+            </picture>
+            <picture>
+                <img src="images/dio.jpg" alt="dio">
+                <figcaption>Honda Dio Scooter</figcaption>
+            </picture>
+            <picture>
+                <img src="images/pcx.jpg" alt="pcx">
+                <figcaption>Honda PCX150 Scooter</figcaption>
+            </picture>
+            <picture>
+                <img src="images/pioneer.jpg" alt="atv">
+                <figcaption>Honda Pioneer ATV</figcaption>
+            </picture>
+            <picture>
+                <img src="images/4dr.jpg" alt="jeep4">
+                <figcaption>Jeep Wrangler 4 dr</figcaption>
+            </picture>
+            <picture>
+                <img src="images/2dr.jpg" alt="jeep2">
+                <figcaption>Jeep Wrangler 2 dr</figcaption>
+            </picture>
+        </div>
         <table>
-            <thead>
-                <tr>
-                    <th>Vehicle</th>
-                    <th># Peoples</th>
-                    <th>Reserved<br>
-                    Half (H) & Full (F)</th>
-                    <th>Walk In<br>
-                    Half (H) & Full (F)</th>
-                </tr>
-            </thead>
             <tbody>
-
+                <td class="header">Vehicles</td>
+                <td class="header">Seats</td>
+                <td class="header">Reserved<br>
+                    Half (H) & Full (F) Day
+                </td>
+                <td class="header">Walk~In<br>
+                    Half (H) & Full (F) Day
+                </td>
             </tbody>
-        </table>        
+        </table>
     </main>
     <footer>
-       <p class="foot">&copy;~Scoots | Attributions | Chelsea Thomson<br> 
-       <span id="date"></span>
-    </footer>         
-        <script src="javascript/main.js"></script>
-        <script src="javascript/rental.js"></script>
-    </body>
+        <p class="foot">&copy;~Scoots | Attributions | Chelsea Thomson<br>
+            <span id="date"></span>
+    </footer>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/rental.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Staatliches']
+            }
+        });
+        WebFont.load({
+            google: {
+                families: ['Barlow']
+            }
+        });
+    </script>
+</body>
+
 </html>

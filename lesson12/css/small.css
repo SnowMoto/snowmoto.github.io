@@ -123,7 +123,7 @@ p {
     display: none;
 }
 
-.weather{
+.weather {
     text-align: left;
     margin-left: 1em;
     padding: .15em;
@@ -229,7 +229,106 @@ footer {
     border-style: none;
 }
 
-/*form*/
+/*tours*/
+
+.tour {
+    text-align: center;
+    padding: 1em;
+}
+
+.visit {
+    color: #ff7770;
+    font-weight: normal;
+}
+
+.info {
+    color: black;
+    font-size: .5em;
+    background-color: #45cfd9;
+    border-bottom-left-radius: 4em;
+    border-top-right-radius: 4em;
+    padding: 1em;
+}
+
+.info a {
+    color: black;
+    background: linear-gradient(#ffd57c, #ff7770);
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    padding: .5em;
+}
+
+.thanks {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: .5em;
+}
+
+/*Rental Table*/
+.h-title {
+    position: relative;
+    margin-top: -1.5em;
+    color: #d8706a;
+}
+
+p.notice {
+    text-align: center;
+}
+
+.rent-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: .5em;
+    text-align: center;
+}
+
+picture img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    padding: .25em
+}
+
+figcaption {
+    font-size: .5em;
+}
+
+table {
+    margin-top: 1em;
+    max-width: 100%;
+    font-size: 1em;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px #ffc670 solid;
+    padding-bottom: .5em;
+}
+
+tbody {
+    font-size: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 1em;
+}
+
+td.header {
+    font-family: "Staatliches", cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: normal;
+    border-width: 0 0 8px 0;
+    border-color: #45cfd9;
+}
+
+tbody td {
+    color: white;
+    font-weight: 700;
+    border-collapse: separate;
+    border: 3px #45cfd9 solid;
+    padding: .5em;
+}
+
+/*reservation form*/
 img.wave {
     display: block;
     max-width: 100%;
@@ -332,12 +431,6 @@ textarea {
     min-height: .5rem;
 }
 
-.thanks {
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: .5em;
-}
-
 /*thank you*/
 .thanks {
     text-align: center;
@@ -364,33 +457,4 @@ iframe {
 
 .qa {
     line-height: 1.5;
-}
-
-/*tours*/
-
-.tour {
-    text-align: center;
-    padding: 1em;
-}
-
-.visit {
-    color: #ff7770;
-    font-weight: normal;
-}
-
-.info {
-    color: black;
-    font-size: .5em;
-    background-color: #45cfd9;
-    border-bottom-left-radius: 4em;
-    border-top-right-radius: 4em;
-    padding: 1em;
-}
-
-.info a {
-    color: black;
-    background: linear-gradient(#ffd57c, #ff7770);
-    border-top-right-radius: 2em;
-    border-bottom-left-radius: 2em;
-    padding: .5em;
 }

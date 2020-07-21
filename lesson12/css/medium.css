@@ -75,4 +75,23 @@
     .info {
         font-size: 1em;
     }
+
+    /*rental rates*/
+    .rent-pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+
+    .header {
+        font-size: 1.25em;
+    }
+
+    tbody {
+        font-size: .95em;
+    }
+
 }
