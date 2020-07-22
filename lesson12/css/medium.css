@@ -29,6 +29,7 @@
         font-weight: 900;
         text-align: center;
         background-image: url("../images/ocean.jpg");
+        background-size: cover;
     }
 
     .icon {
@@ -94,4 +95,14 @@
         font-size: .95em;
     }
 
+/*reservations*/
+.title {
+    font-size: 2em;
 }
+
+.con{
+    font-size: 2em;
+}
+
+}
+

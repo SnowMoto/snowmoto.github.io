@@ -8,7 +8,7 @@ body {
 header,
 main,
 footer {
-    max-width: 1065px;
+    max-width: 1070px;
     margin: auto;
 }
 
@@ -81,6 +81,7 @@ h1 {
 .hero {
     width: 100%;
     position: relative;
+    padding: 0;
 }
 
 h2 {
@@ -105,7 +106,7 @@ h2 {
     border-bottom-left-radius: 1.5em;
     box-shadow: 2px 2px 10px black;
     opacity: .7;
-    line-height: 0em;
+    line-height: 0;
     padding: 1em;
 }
 
@@ -124,12 +125,12 @@ p {
 }
 
 .weather {
-    text-align: left;
+    text-align: center;
     margin-left: 1em;
     padding: .15em;
     border-bottom: none;
-    color: #ebb564;
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
 }
 
 h3 {
@@ -179,13 +180,13 @@ h3 {
     text-align: center;
     font-weight: 700;
     font-size: .5em;
-    margin: 0em;
+    margin: 0;
 }
 
 .fa {
-    padding: 10px;
-    font-size: 10px;
-    width: 10px;
+    padding: .625em;
+    font-size: .625em;
+    width: .625em;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -241,6 +242,10 @@ footer {
     font-weight: normal;
 }
 
+.pic{
+    max-width: 100%;
+}
+
 .info {
     color: black;
     font-size: .5em;
@@ -271,7 +276,7 @@ footer {
     color: #d8706a;
 }
 
-p.notice {
+.notice {
     text-align: center;
 }
 
@@ -282,7 +287,7 @@ p.notice {
     text-align: center;
 }
 
-picture img {
+figure img {
     margin: auto;
     display: block;
     max-width: 100%;
@@ -293,7 +298,7 @@ figcaption {
     font-size: .5em;
 }
 
-table {
+.table {
     margin-top: 1em;
     max-width: 100%;
     font-size: 1em;
@@ -321,7 +326,6 @@ td.header {
 }
 
 tbody td {
-    color: white;
     font-weight: 700;
     border-collapse: separate;
     border: 3px #45cfd9 solid;
@@ -329,7 +333,7 @@ tbody td {
 }
 
 /*reservation form*/
-img.wave {
+.wave {
     display: block;
     max-width: 100%;
     margin-left: auto;
@@ -339,6 +343,7 @@ img.wave {
 }
 
 .title {
+    font-size: 1.25em;
     position: relative;
     margin-top: -1.5em;
     color: #d8706a;
@@ -348,7 +353,7 @@ img.wave {
     margin: auto;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #ff7770;
     padding: .25em;
     border: none;
@@ -390,7 +395,7 @@ form label.top {
 form label.top input,
 form label.top select {
     display: block;
-    font-size: 1rem;
+    font-size: 1em;
     padding: .75rem;
     color: black;
     width: 100%;
@@ -427,7 +432,6 @@ form label.top input:required:valid {
 
 textarea {
     resize: vertical;
-    min-width: auto;
     min-height: .5rem;
 }
 
