@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (max-width: 50em) and (min-width: 32.5em){
     body{
         font-size: 14px;
     }
@@ -12,6 +12,15 @@
     h2{
         font-size: 16px;
     }
+    .section-one{
+        grid-column: 1/2;
+    }
+    .section-two{
+        grid-column: 2/2;
+    }
+    .section-three{
+        grid-column: span 2/ span 2;
+    }
     section{
         background-color:rgb(80, 91, 110);
         border-color: rgb(80, 91, 110);
@@ -21,9 +30,9 @@
         border-bottom-left-radius: 50px;
         padding: .5em;
     }
+
     footer{
         font-size: 14px;
         border-radius: 10px; 
     }
- 
 }
