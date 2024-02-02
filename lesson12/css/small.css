@@ -184,23 +184,21 @@ h3 {
 }
 
 .fa {
-    padding: .625em;
-    font-size: .625em;
-    width: .625em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+    padding: .5em;
+    font-size: .5em;
     border: 2px white solid;
 }
 
 .fa-facebook {
     background: #3B5998;
     color: white;
+    margin-right: 1em;
 }
 
 .fa-instagram {
     background: linear-gradient(#710ccf, #ff5cdc, #ffc670);
     color: white;
+    margin-right: 1em;
 }
 
 
