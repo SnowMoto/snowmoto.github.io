@@ -36,7 +36,11 @@ ul {
 }
 li{
     padding-bottom: .5rem;
+    list-style: none;
 }
+li:last-child{
+    padding-bottom: 0;
+}    
 a{
     color: 	rgb(1, 255, 35);
     padding: .25rem;
